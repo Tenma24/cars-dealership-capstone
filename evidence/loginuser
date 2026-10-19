@@ -1,2 +1,2 @@
-$ curl -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -H "X-CSRFToken: $CSRF_TOKEN" --data-binary @login.json http://127.0.0.1:8000/djangoapp/login
-{"userName": "capstone", "status": "Authenticated", "csrfToken": "YZPxd7VOzqgLleHwyzd2tbJDkekKswQdnvmIfhsAXZ5fnREkQMtXaUgxCeKw5s9N"}
+curl -X POST -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -H "X-CSRFToken: YkFcn5ui3hWYP9b2bDfSOt5eNsTqI9uSnf0IPywLbGitg7oRsktu8HMEAw2mFg5v" -d '{"userName":"submission_20261019","password":"CourseDemo!73921"}' http://127.0.0.1:8000/djangoapp/login
+{"userName": "submission_20261019", "status": "Authenticated", "csrfToken": "7VkF9085R80gsOUTTDrcU5N33wuFew7vNqgFiGTnVKKfAJD0WiWGcdwPoUD8txdZ"}

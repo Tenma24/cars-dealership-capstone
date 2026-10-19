@@ -12,72 +12,18 @@ TASK 2
 Performing system checks...
 
 System check identified no issues (0 silenced).
-October 19, 2026 - 23:24:10
+October 19, 2026 - 23:39:39
 Django version 5.2.18, using settings 'djangoproj.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 
 WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
 For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
-[19/Oct/2026 23:24:17] "GET /dealers HTTP/1.1" 200 508
-[19/Oct/2026 23:24:18] "GET /static/assets/index-DHAC2Zaz.js HTTP/1.1" 200 234333
-[19/Oct/2026 23:24:18] "GET /static/assets/index-BVLMRveR.css HTTP/1.1" 200 6182
-[19/Oct/2026 23:24:18] "GET /djangoapp/session HTTP/1.1" 200 99
-Not Found: /favicon.ico
-[19/Oct/2026 23:24:18] "GET /favicon.ico HTTP/1.1" 404 2873
-[19/Oct/2026 23:24:18] "GET /static/car_dealership.jpg HTTP/1.1" 200 263696
-[19/Oct/2026 23:24:18] "GET /djangoapp/get_dealers HTTP/1.1" 200 10635
-[19/Oct/2026 23:24:18] "GET /register HTTP/1.1" 200 508
-[19/Oct/2026 23:24:18] "GET /djangoapp/session HTTP/1.1" 200 99
-[19/Oct/2026 23:24:19] "POST /djangoapp/register HTTP/1.1" 201 144
-[19/Oct/2026 23:24:19] "GET /dealers HTTP/1.1" 200 508
-[19/Oct/2026 23:24:19] "GET /djangoapp/session HTTP/1.1" 200 117
-[19/Oct/2026 23:24:19] "GET /djangoapp/get_dealers HTTP/1.1" 200 10635
-[19/Oct/2026 23:24:20] "GET /dealer/8 HTTP/1.1" 200 508
-[19/Oct/2026 23:24:20] "GET /djangoapp/session HTTP/1.1" 200 117
-[19/Oct/2026 23:24:20] "GET /djangoapp/dealer/8 HTTP/1.1" 200 216
-[19/Oct/2026 23:24:20] "GET /djangoapp/reviews/dealer/8 HTTP/1.1" 200 366
-[19/Oct/2026 23:24:20] "GET /static/cars.jpeg HTTP/1.1" 200 12967
-[19/Oct/2026 23:24:20] "GET /postreview/8 HTTP/1.1" 200 508
-[19/Oct/2026 23:24:20] "GET /djangoapp/session HTTP/1.1" 200 117
-[19/Oct/2026 23:24:20] "GET /djangoapp/dealer/8 HTTP/1.1" 200 216
-[19/Oct/2026 23:24:20] "GET /djangoapp/get_cars HTTP/1.1" 200 6813
-[19/Oct/2026 23:24:20] "POST /djangoapp/add_review HTTP/1.1" 201 363
-[19/Oct/2026 23:24:20] "GET /dealer/8 HTTP/1.1" 200 508
-[19/Oct/2026 23:24:20] "GET /djangoapp/session HTTP/1.1" 200 117
-[19/Oct/2026 23:24:20] "GET /djangoapp/reviews/dealer/8 HTTP/1.1" 200 719
-[19/Oct/2026 23:24:20] "GET /djangoapp/dealer/8 HTTP/1.1" 200 216
-[19/Oct/2026 23:24:20] "POST /djangoapp/logout HTTP/1.1" 200 105
-[19/Oct/2026 23:24:20] "GET /dealers HTTP/1.1" 200 508
-[19/Oct/2026 23:24:20] "GET /djangoapp/session HTTP/1.1" 200 99
-[19/Oct/2026 23:24:21] "GET /djangoapp/get_dealers HTTP/1.1" 200 10635
-[19/Oct/2026 23:24:21] "GET /admin/ HTTP/1.1" 302 0
-[19/Oct/2026 23:24:21] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
-[19/Oct/2026 23:24:21] "GET /static/admin/css/base.css HTTP/1.1" 200 22120
-[19/Oct/2026 23:24:21] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
-[19/Oct/2026 23:24:21] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
-[19/Oct/2026 23:24:21] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
-[19/Oct/2026 23:24:21] "GET /static/admin/css/login.css HTTP/1.1" 200 951
-[19/Oct/2026 23:24:21] "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
-[19/Oct/2026 23:24:21] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
-[19/Oct/2026 23:24:22] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
-[19/Oct/2026 23:24:22] "GET /admin/ HTTP/1.1" 200 7808
-[19/Oct/2026 23:24:22] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
-[19/Oct/2026 23:24:22] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
-[19/Oct/2026 23:24:22] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
-[19/Oct/2026 23:24:22] "POST /admin/logout/ HTTP/1.1" 200 3568
-[19/Oct/2026 23:24:22] "GET /dealers HTTP/1.1" 200 508
-[19/Oct/2026 23:24:22] "GET /static/assets/index-BVLMRveR.css HTTP/1.1" 200 6182
-[19/Oct/2026 23:24:22] "GET /static/assets/index-DHAC2Zaz.js HTTP/1.1" 200 234333
-[19/Oct/2026 23:24:22] "GET /djangoapp/session HTTP/1.1" 200 99
-[19/Oct/2026 23:24:22] "GET /static/car_dealership.jpg HTTP/1.1" 200 263696
-[19/Oct/2026 23:24:22] "GET /djangoapp/get_dealers HTTP/1.1" 200 10635
-[19/Oct/2026 23:24:23] "GET /about/ HTTP/1.1" 200 2426
-[19/Oct/2026 23:24:23] "GET /static/site.css HTTP/1.1" 200 6190
-[19/Oct/2026 23:24:23] "GET /contact/ HTTP/1.1" 200 1638
-[19/Oct/2026 23:24:23] "GET /static/contactus.png HTTP/1.1" 200 29347
-[19/Oct/2026 23:26:04] "GET /djangoapp/reviews/dealer/8 HTTP/1.1" 200 719
-[19/Oct/2026 23:26:17] "GET /djangoapp/reviews/dealer/8 HTTP/1.1" 200 719
+[19/Oct/2026 23:40:04] "GET /djangoapp/session HTTP/1.1" 200 99
+[19/Oct/2026 23:40:04] "POST /djangoapp/register HTTP/1.1" 201 143
+[19/Oct/2026 23:40:04] "GET /djangoapp/session HTTP/1.1" 200 99
+[19/Oct/2026 23:40:05] "POST /djangoapp/login HTTP/1.1" 200 143
+[19/Oct/2026 23:40:05] "GET /djangoapp/logout HTTP/1.1" 200 121
 
 
 ============================================================
@@ -93,15 +39,15 @@ https://github.com/Tenma24/cars-dealership-capstone/blob/main/server/frontend/st
 ============================================================
 TASK 5
 ============================================================
-$ curl -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -H "X-CSRFToken: $CSRF_TOKEN" --data-binary @login.json http://127.0.0.1:8000/djangoapp/login
-{"userName": "capstone", "status": "Authenticated", "csrfToken": "YZPxd7VOzqgLleHwyzd2tbJDkekKswQdnvmIfhsAXZ5fnREkQMtXaUgxCeKw5s9N"}
+curl -X POST -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -H "X-CSRFToken: YkFcn5ui3hWYP9b2bDfSOt5eNsTqI9uSnf0IPywLbGitg7oRsktu8HMEAw2mFg5v" -d '{"userName":"submission_20261019","password":"CourseDemo!73921"}' http://127.0.0.1:8000/djangoapp/login
+{"userName": "submission_20261019", "status": "Authenticated", "csrfToken": "7VkF9085R80gsOUTTDrcU5N33wuFew7vNqgFiGTnVKKfAJD0WiWGcdwPoUD8txdZ"}
 
 
 ============================================================
 TASK 6
 ============================================================
-$ curl -b cookies.txt -X POST -H "X-CSRFToken: $CSRF_TOKEN" http://127.0.0.1:8000/djangoapp/logout
-{"status": "Logged out", "csrfToken": "zdrbdIW4YXfjIVhjIb8NNp22HixSnyyeYJYmfStQmw4NKye70ooIu8zWZiXE0uRO"}
+curl -X GET -b cookies.txt -H "X-Requested-With: XMLHttpRequest" http://127.0.0.1:8000/djangoapp/logout
+{"userName": "", "status": "Logged out", "csrfToken": "l8O6CI2TkiZYTHuf5zcH1kB9RbYFRduS1DK6LoNboUJX1Cdm8eHbjskVcz786eAm"}
 
 
 ============================================================
@@ -112,29 +58,29 @@ https://github.com/Tenma24/cars-dealership-capstone/blob/main/server/frontend/sr
 ============================================================
 TASK 8
 ============================================================
-$ curl http://127.0.0.1:8000/djangoapp/reviews/dealer/8
-{"reviews": [{"id": "6a75e957-c7b6-44b3-8fc3-5428bbdc0a5e", "dealership": 8, "review": "Fantastic services! The team explained every option clearly and made the visit easy.", "name": "Alex Morgan", "username": "driver_1792433834603", "purchase": true, "purchase_date": "2026-10-01", "car_make": "Audi", "car_model": "A4", "car_year": 2021, "sentiment": "positive"}, {"id": "d9678c90-6b0a-4fa2-ad50-ba4f2fb20db4", "dealership": 8, "review": "Fantastic services! The team explained every option clearly and made the visit easy.", "name": "Alex Morgan", "username": "driver_1792434258677", "purchase": true, "purchase_date": "2026-10-01", "car_make": "Audi", "car_model": "A4", "car_year": 2021, "sentiment": "positive"}]}
+curl -X GET "http://127.0.0.1:3030/fetchReviews/dealer/8"
+[{"id":"6a75e957-c7b6-44b3-8fc3-5428bbdc0a5e","dealership":8,"review":"Fantastic services! The team explained every option clearly and made the visit easy.","name":"Alex Morgan","username":"driver_1792433834603","purchase":true,"purchase_date":"2026-10-01","car_make":"Audi","car_model":"A4","car_year":2021,"sentiment":"positive"},{"id":"d9678c90-6b0a-4fa2-ad50-ba4f2fb20db4","dealership":8,"review":"Fantastic services! The team explained every option clearly and made the visit easy.","name":"Alex Morgan","username":"driver_1792434258677","purchase":true,"purchase_date":"2026-10-01","car_make":"Audi","car_model":"A4","car_year":2021,"sentiment":"positive"}]
 
 
 ============================================================
 TASK 9
 ============================================================
-$ curl http://127.0.0.1:8000/djangoapp/get_dealers
-{"dealers": [{"id": 1, "city": "El Paso", "state": "Texas", "st": "TX", "address": "3 Nova Court", "zip": "88563", "lat": 31.6948, "long": -106.3, "short_name": "Holdlamis", "full_name": "Holdlamis Car Dealership"}, {"id": 2, "city": "Minneapolis", "state": "Minnesota", "st": "MN", "address": "6337 Butternut Crossing", "zip": "55402", "lat": 44.9762, "long": -93.2759, "short_name": "Temp", "full_name": "Temp Car Dealership"}, {"id": 3, "city": "Birmingham", "state": "Alabama", "st": "AL", "address": "9477 Twin Pines Center", "zip": "35285", "lat": 33.5446, "long": -86.9292, "short_name": "Sub-Ex", "full_name": "Sub-Ex Car Dealership"}, {"id": 4, "city": "Dallas", "state": "Texas", "st": "TX", "address": "85800 Hazelcrest Circle", "zip": "75241", "lat": 32.6722, "long": -96.7774, "short_name": "Solarbreeze", "full_name": "Solarbreeze Car Dealership"}, {"id": 5, "city": "Baltimore", "state": "Maryland", "st": "MD", "address": "93 Golf Course Pass", "zip": "21203", "lat": 39.2847, "long": -76.6205, "short_name": "Regrant", "full_name": "Regrant Car Dealership"}, {"id": 6, "city": "Wilkes Barre", "state": "Pennsylvania", "st": "PA", "address": "2 Burrows Hill", "zip": "18763", "lat": 41.2722, "long": -75.8801, "short_name": "Stronghold", "full_name": "Stronghold Car Dealership"}, {"id": 7, "city": "Pueblo", "state": "Colorado", "st": "CO", "address": "9 Cambridge Park", "zip": "81010", "lat": 38.1286, "long": -104.5523, "short_name": "Job", "full_name": "Job Car Dealership"}, {"id": 8, "city": "Topeka", "state": "Kansas", "st": "KS", "address": "288 Larry Place", "zip": "66642", "lat": 39.0429, "long": -95.7697, "short_name": "Bytecard", "full_name": "Bytecard Car Dealership"}, {"id": 9, "city": "Dallas", "state": "Texas", "st": "TX", "address": "253 Hanson Junction", "zip": "75216", "lat": 32.7086, "long": -96.7955, "short_name": "Job", "full_name": "Job Car Dealership"}, {"id": 10, "city": "Washington", "state": "District of Columbia", "st": "DC", "address": "108 Memorial Pass", "zip": "20005", "lat": 38.9067, "long": -77.0312, "short_name": "Alphazap", "full_name": "Alphazap Car Dealership"}, {"id": 11, "city": "Carol Stream", "state": "Illinois", "st": "IL", "address": "8108 Dryden Court", "zip": "60351", "lat": 41.9166, "long": -88.1208, "short_name": "Rank", "full_name": "Rank Car Dealership"}, {"id": 12, "city": "Silver Spring", "state": "Maryland", "st": "MD", "address": "168 Pawling Lane", "zip": "20918", "lat": 39.144, "long": -77.2076, "short_name": "Tin", "full_name": "Tin Car Dealership"}, {"id": 13, "city": "Baltimore", "state": "Maryland", "st": "MD", "address": "452 Fair Oaks Drive", "zip": "21275", "lat": 39.2847, "long": -76.6205, "short_name": "Y-Solowarm", "full_name": "Y-Solowarm Car Dealership"}, {"id": 14, "city": "San Francisco", "state": "California", "st": "CA", "address": "2109 Scott Parkway", "zip": "94147", "lat": 37.7848, "long": -122.7278, "short_name": "It", "full_name": "It Car Dealership"}, {"id": 15, "city": "San Antonio", "state": "Texas", "st": "TX", "address": "5057 Pankratz Hill", "zip": "78225", "lat": 29.3875, "long": -98.5245, "short_name": "Tempsoft", "full_name": "Tempsoft Car Dealership"}, {"id": 16, "city": "El Paso", "state": "Texas", "st": "TX", "address": "0 Rieder Trail", "zip": "79994", "lat": 31.6948, "long": -106.3, "short_name": "Treeflex", "full_name": "Treeflex Car Dealership"}, {"id": 17, "city": "San Jose", "state": "California", "st": "CA", "address": "7670 American Ash Drive", "zip": "95138", "lat": 37.2602, "long": -121.7709, "short_name": "Home Ing", "full_name": "Home Ing Car Dealership"}, {"id": 18, "city": "Whittier", "state": "California", "st": "CA", "address": "4 Pearson Avenue", "zip": "90605", "lat": 33.9413, "long": -118.0356, "short_name": "Bitchip", "full_name": "Bitchip Car Dealership"}, {"id": 19, "city": "Hialeah", "state": "Florida", "st": "FL", "address": "93 Monument Circle", "zip": "33013", "lat": 25.8594, "long": -80.2725, "short_name": "Otcom", "full_name": "Otcom Car Dealership"}, {"id": 20, "city": "Detroit", "state": "Michigan", "st": "MI", "address": "4580 Waubesa Lane", "zip": "48224", "lat": 42.4098, "long": -82.9441, "short_name": "Subin", "full_name": "Subin Car Dealership"}, {"id": 21, "city": "San Francisco", "state": "California", "st": "CA", "address": "046 Mockingbird Junction", "zip": "94154", "lat": 37.7848, "long": -122.7278, "short_name": "Andalax", "full_name": "Andalax Car Dealership"}, {"id": 22, "city": "Fort Lauderdale", "state": "Florida", "st": "FL", "address": "45737 Butternut Lane", "zip": "33330", "lat": 26.0663, "long": -80.3339, "short_name": "Y-Solowarm", "full_name": "Y-Solowarm Car Dealership"}, {"id": 23, "city": "Des Moines", "state": "Iowa", "st": "IA", "address": "21425 Bartelt Pass", "zip": "50936", "lat": 41.6727, "long": -93.5722, "short_name": "Bitchip", "full_name": "Bitchip Car Dealership"}, {"id": 24, "city": "Utica", "state": "New York", "st": "NY", "address": "408 Delaware Circle", "zip": "13505", "lat": 43.0872, "long": -75.2603, "short_name": "Aerified", "full_name": "Aerified Car Dealership"}, {"id": 25, "city": "Washington", "state": "District of Columbia", "st": "DC", "address": "6505 Melrose Junction", "zip": "20580", "lat": 38.8933, "long": -77.0146, "short_name": "Opela", "full_name": "Opela Car Dealership"}, {"id": 26, "city": "Pittsburgh", "state": "Pennsylvania", "st": "PA", "address": "306 Jenna Parkway", "zip": "15279", "lat": 40.4344, "long": -80.0248, "short_name": "Flowdesk", "full_name": "Flowdesk Car Dealership"}, {"id": 27, "city": "San Antonio", "state": "Texas", "st": "TX", "address": "95321 Superior Hill", "zip": "78245", "lat": 29.4189, "long": -98.6895, "short_name": "Namfix", "full_name": "Namfix Car Dealership"}, {"id": 28, "city": "Hialeah", "state": "Florida", "st": "FL", "address": "5458 Maple Way", "zip": "33018", "lat": 25.9098, "long": -80.3889, "short_name": "Fixflex", "full_name": "Fixflex Car Dealership"}, {"id": 29, "city": "San Francisco", "state": "California", "st": "CA", "address": "9 Harper Circle", "zip": "94110", "lat": 37.7509, "long": -122.4153, "short_name": "Fix San", "full_name": "Fix San Car Dealership"}, {"id": 30, "city": "Houston", "state": "Texas", "st": "TX", "address": "5423 Spaight Road", "zip": "77218", "lat": 29.834, "long": -95.4342, "short_name": "Opela", "full_name": "Opela Car Dealership"}, {"id": 31, "city": "New York City", "state": "New York", "st": "NY", "address": "5 Northfield Pass", "zip": "10131", "lat": 40.7808, "long": -73.9772, "short_name": "Fintone", "full_name": "Fintone Car Dealership"}, {"id": 32, "city": "Wilkes Barre", "state": "Pennsylvania", "st": "PA", "address": "3 Carey Junction", "zip": "18768", "lat": 41.2722, "long": -75.8801, "short_name": "Subin", "full_name": "Subin Car Dealership"}, {"id": 33, "city": "Des Moines", "state": "Iowa", "st": "IA", "address": "627 Cottonwood Circle", "zip": "50335", "lat": 41.6727, "long": -93.5722, "short_name": "Tres-Zap", "full_name": "Tres-Zap Car Dealership"}, {"id": 34, "city": "Silver Spring", "state": "Maryland", "st": "MD", "address": "8 Green Hill", "zip": "20904", "lat": 39.0668, "long": -76.9969, "short_name": "Gembucket", "full_name": "Gembucket Car Dealership"}, {"id": 35, "city": "Seattle", "state": "Washington", "st": "WA", "address": "9 Beilfuss Trail", "zip": "98158", "lat": 47.4497, "long": -122.3076, "short_name": "Treeflex", "full_name": "Treeflex Car Dealership"}, {"id": 36, "city": "Vienna", "state": "Virginia", "st": "VA", "address": "311 Paget Alley", "zip": "22184", "lat": 38.8318, "long": -77.2888, "short_name": "Latlux", "full_name": "Latlux Car Dealership"}, {"id": 37, "city": "Detroit", "state": "Michigan", "st": "MI", "address": "152 Moland Lane", "zip": "48224", "lat": 42.4098, "long": -82.9441, "short_name": "Ventosanzap", "full_name": "Ventosanzap Car Dealership"}, {"id": 38, "city": "Dallas", "state": "Texas", "st": "TX", "address": "821 New Castle Trail", "zip": "75226", "lat": 32.7887, "long": -96.7676, "short_name": "Zamit", "full_name": "Zamit Car Dealership"}, {"id": 39, "city": "Fresno", "state": "California", "st": "CA", "address": "990 Raven Road", "zip": "93740", "lat": 36.7464, "long": -119.6397, "short_name": "Stronghold", "full_name": "Stronghold Car Dealership"}, {"id": 40, "city": "Merrifield", "state": "Virginia", "st": "VA", "address": "89375 Main Trail", "zip": "22119", "lat": 38.8318, "long": -77.2888, "short_name": "Greenlam", "full_name": "Greenlam Car Dealership"}, {"id": 41, "city": "Baltimore", "state": "Maryland", "st": "MD", "address": "9 Sherman Hill", "zip": "21275", "lat": 39.2847, "long": -76.6205, "short_name": "Tres-Zap", "full_name": "Tres-Zap Car Dealership"}, {"id": 42, "city": "Jersey City", "state": "New Jersey", "st": "NJ", "address": "62 Manley Point", "zip": "07310", "lat": 40.7324, "long": -74.0431, "short_name": "Konklab", "full_name": "Konklab Car Dealership"}, {"id": 43, "city": "Atlanta", "state": "Georgia", "st": "GA", "address": "91 Declaration Avenue", "zip": "31119", "lat": 33.8913, "long": -84.0746, "short_name": "Opela", "full_name": "Opela Car Dealership"}, {"id": 44, "city": "Roanoke", "state": "Virginia", "st": "VA", "address": "0 Northview Point", "zip": "24014", "lat": 37.2327, "long": -79.9463, "short_name": "Veribet", "full_name": "Veribet Car Dealership"}, {"id": 45, "city": "Norfolk", "state": "Virginia", "st": "VA", "address": "283 Mockingbird Plaza", "zip": "23509", "lat": 36.8787, "long": -76.2604, "short_name": "Konklux", "full_name": "Konklux Car Dealership"}, {"id": 46, "city": "New Orleans", "state": "Louisiana", "st": "LA", "address": "527 Hayes Junction", "zip": "70165", "lat": 30.033, "long": -89.8826, "short_name": "Regrant", "full_name": "Regrant Car Dealership"}, {"id": 47, "city": "Stamford", "state": "Connecticut", "st": "CT", "address": "840 Pepper Wood Crossing", "zip": "06905", "lat": 41.0888, "long": -73.5435, "short_name": "Prodder", "full_name": "Prodder Car Dealership"}, {"id": 48, "city": "Tucson", "state": "Arizona", "st": "AZ", "address": "48610 Morning Street", "zip": "85710", "lat": 32.2138, "long": -110.824, "short_name": "It", "full_name": "It Car Dealership"}, {"id": 49, "city": "Athens", "state": "Georgia", "st": "GA", "address": "222 Grasskamp Plaza", "zip": "30605", "lat": 33.9321, "long": -83.3525, "short_name": "Veribet", "full_name": "Veribet Car Dealership"}, {"id": 50, "city": "Atlanta", "state": "Georgia", "st": "GA", "address": "76 Clove Trail", "zip": "30316", "lat": 33.7217, "long": -84.3339, "short_name": "Aerified", "full_name": "Aerified Car Dealership"}]}
+curl -X GET "http://127.0.0.1:3030/fetchDealers"
+[{"id":1,"city":"El Paso","state":"Texas","st":"TX","address":"3 Nova Court","zip":"88563","lat":31.6948,"long":-106.3,"short_name":"Holdlamis","full_name":"Holdlamis Car Dealership"},{"id":2,"city":"Minneapolis","state":"Minnesota","st":"MN","address":"6337 Butternut Crossing","zip":"55402","lat":44.9762,"long":-93.2759,"short_name":"Temp","full_name":"Temp Car Dealership"},{"id":3,"city":"Birmingham","state":"Alabama","st":"AL","address":"9477 Twin Pines Center","zip":"35285","lat":33.5446,"long":-86.9292,"short_name":"Sub-Ex","full_name":"Sub-Ex Car Dealership"},{"id":4,"city":"Dallas","state":"Texas","st":"TX","address":"85800 Hazelcrest Circle","zip":"75241","lat":32.6722,"long":-96.7774,"short_name":"Solarbreeze","full_name":"Solarbreeze Car Dealership"},{"id":5,"city":"Baltimore","state":"Maryland","st":"MD","address":"93 Golf Course Pass","zip":"21203","lat":39.2847,"long":-76.6205,"short_name":"Regrant","full_name":"Regrant Car Dealership"},{"id":6,"city":"Wilkes Barre","state":"Pennsylvania","st":"PA","address":"2 Burrows Hill","zip":"18763","lat":41.2722,"long":-75.8801,"short_name":"Stronghold","full_name":"Stronghold Car Dealership"},{"id":7,"city":"Pueblo","state":"Colorado","st":"CO","address":"9 Cambridge Park","zip":"81010","lat":38.1286,"long":-104.5523,"short_name":"Job","full_name":"Job Car Dealership"},{"id":8,"city":"Topeka","state":"Kansas","st":"KS","address":"288 Larry Place","zip":"66642","lat":39.0429,"long":-95.7697,"short_name":"Bytecard","full_name":"Bytecard Car Dealership"},{"id":9,"city":"Dallas","state":"Texas","st":"TX","address":"253 Hanson Junction","zip":"75216","lat":32.7086,"long":-96.7955,"short_name":"Job","full_name":"Job Car Dealership"},{"id":10,"city":"Washington","state":"District of Columbia","st":"DC","address":"108 Memorial Pass","zip":"20005","lat":38.9067,"long":-77.0312,"short_name":"Alphazap","full_name":"Alphazap Car Dealership"},{"id":11,"city":"Carol Stream","state":"Illinois","st":"IL","address":"8108 Dryden Court","zip":"60351","lat":41.9166,"long":-88.1208,"short_name":"Rank","full_name":"Rank Car Dealership"},{"id":12,"city":"Silver Spring","state":"Maryland","st":"MD","address":"168 Pawling Lane","zip":"20918","lat":39.144,"long":-77.2076,"short_name":"Tin","full_name":"Tin Car Dealership"},{"id":13,"city":"Baltimore","state":"Maryland","st":"MD","address":"452 Fair Oaks Drive","zip":"21275","lat":39.2847,"long":-76.6205,"short_name":"Y-Solowarm","full_name":"Y-Solowarm Car Dealership"},{"id":14,"city":"San Francisco","state":"California","st":"CA","address":"2109 Scott Parkway","zip":"94147","lat":37.7848,"long":-122.7278,"short_name":"It","full_name":"It Car Dealership"},{"id":15,"city":"San Antonio","state":"Texas","st":"TX","address":"5057 Pankratz Hill","zip":"78225","lat":29.3875,"long":-98.5245,"short_name":"Tempsoft","full_name":"Tempsoft Car Dealership"},{"id":16,"city":"El Paso","state":"Texas","st":"TX","address":"0 Rieder Trail","zip":"79994","lat":31.6948,"long":-106.3,"short_name":"Treeflex","full_name":"Treeflex Car Dealership"},{"id":17,"city":"San Jose","state":"California","st":"CA","address":"7670 American Ash Drive","zip":"95138","lat":37.2602,"long":-121.7709,"short_name":"Home Ing","full_name":"Home Ing Car Dealership"},{"id":18,"city":"Whittier","state":"California","st":"CA","address":"4 Pearson Avenue","zip":"90605","lat":33.9413,"long":-118.0356,"short_name":"Bitchip","full_name":"Bitchip Car Dealership"},{"id":19,"city":"Hialeah","state":"Florida","st":"FL","address":"93 Monument Circle","zip":"33013","lat":25.8594,"long":-80.2725,"short_name":"Otcom","full_name":"Otcom Car Dealership"},{"id":20,"city":"Detroit","state":"Michigan","st":"MI","address":"4580 Waubesa Lane","zip":"48224","lat":42.4098,"long":-82.9441,"short_name":"Subin","full_name":"Subin Car Dealership"},{"id":21,"city":"San Francisco","state":"California","st":"CA","address":"046 Mockingbird Junction","zip":"94154","lat":37.7848,"long":-122.7278,"short_name":"Andalax","full_name":"Andalax Car Dealership"},{"id":22,"city":"Fort Lauderdale","state":"Florida","st":"FL","address":"45737 Butternut Lane","zip":"33330","lat":26.0663,"long":-80.3339,"short_name":"Y-Solowarm","full_name":"Y-Solowarm Car Dealership"},{"id":23,"city":"Des Moines","state":"Iowa","st":"IA","address":"21425 Bartelt Pass","zip":"50936","lat":41.6727,"long":-93.5722,"short_name":"Bitchip","full_name":"Bitchip Car Dealership"},{"id":24,"city":"Utica","state":"New York","st":"NY","address":"408 Delaware Circle","zip":"13505","lat":43.0872,"long":-75.2603,"short_name":"Aerified","full_name":"Aerified Car Dealership"},{"id":25,"city":"Washington","state":"District of Columbia","st":"DC","address":"6505 Melrose Junction","zip":"20580","lat":38.8933,"long":-77.0146,"short_name":"Opela","full_name":"Opela Car Dealership"},{"id":26,"city":"Pittsburgh","state":"Pennsylvania","st":"PA","address":"306 Jenna Parkway","zip":"15279","lat":40.4344,"long":-80.0248,"short_name":"Flowdesk","full_name":"Flowdesk Car Dealership"},{"id":27,"city":"San Antonio","state":"Texas","st":"TX","address":"95321 Superior Hill","zip":"78245","lat":29.4189,"long":-98.6895,"short_name":"Namfix","full_name":"Namfix Car Dealership"},{"id":28,"city":"Hialeah","state":"Florida","st":"FL","address":"5458 Maple Way","zip":"33018","lat":25.9098,"long":-80.3889,"short_name":"Fixflex","full_name":"Fixflex Car Dealership"},{"id":29,"city":"San Francisco","state":"California","st":"CA","address":"9 Harper Circle","zip":"94110","lat":37.7509,"long":-122.4153,"short_name":"Fix San","full_name":"Fix San Car Dealership"},{"id":30,"city":"Houston","state":"Texas","st":"TX","address":"5423 Spaight Road","zip":"77218","lat":29.834,"long":-95.4342,"short_name":"Opela","full_name":"Opela Car Dealership"},{"id":31,"city":"New York City","state":"New York","st":"NY","address":"5 Northfield Pass","zip":"10131","lat":40.7808,"long":-73.9772,"short_name":"Fintone","full_name":"Fintone Car Dealership"},{"id":32,"city":"Wilkes Barre","state":"Pennsylvania","st":"PA","address":"3 Carey Junction","zip":"18768","lat":41.2722,"long":-75.8801,"short_name":"Subin","full_name":"Subin Car Dealership"},{"id":33,"city":"Des Moines","state":"Iowa","st":"IA","address":"627 Cottonwood Circle","zip":"50335","lat":41.6727,"long":-93.5722,"short_name":"Tres-Zap","full_name":"Tres-Zap Car Dealership"},{"id":34,"city":"Silver Spring","state":"Maryland","st":"MD","address":"8 Green Hill","zip":"20904","lat":39.0668,"long":-76.9969,"short_name":"Gembucket","full_name":"Gembucket Car Dealership"},{"id":35,"city":"Seattle","state":"Washington","st":"WA","address":"9 Beilfuss Trail","zip":"98158","lat":47.4497,"long":-122.3076,"short_name":"Treeflex","full_name":"Treeflex Car Dealership"},{"id":36,"city":"Vienna","state":"Virginia","st":"VA","address":"311 Paget Alley","zip":"22184","lat":38.8318,"long":-77.2888,"short_name":"Latlux","full_name":"Latlux Car Dealership"},{"id":37,"city":"Detroit","state":"Michigan","st":"MI","address":"152 Moland Lane","zip":"48224","lat":42.4098,"long":-82.9441,"short_name":"Ventosanzap","full_name":"Ventosanzap Car Dealership"},{"id":38,"city":"Dallas","state":"Texas","st":"TX","address":"821 New Castle Trail","zip":"75226","lat":32.7887,"long":-96.7676,"short_name":"Zamit","full_name":"Zamit Car Dealership"},{"id":39,"city":"Fresno","state":"California","st":"CA","address":"990 Raven Road","zip":"93740","lat":36.7464,"long":-119.6397,"short_name":"Stronghold","full_name":"Stronghold Car Dealership"},{"id":40,"city":"Merrifield","state":"Virginia","st":"VA","address":"89375 Main Trail","zip":"22119","lat":38.8318,"long":-77.2888,"short_name":"Greenlam","full_name":"Greenlam Car Dealership"},{"id":41,"city":"Baltimore","state":"Maryland","st":"MD","address":"9 Sherman Hill","zip":"21275","lat":39.2847,"long":-76.6205,"short_name":"Tres-Zap","full_name":"Tres-Zap Car Dealership"},{"id":42,"city":"Jersey City","state":"New Jersey","st":"NJ","address":"62 Manley Point","zip":"07310","lat":40.7324,"long":-74.0431,"short_name":"Konklab","full_name":"Konklab Car Dealership"},{"id":43,"city":"Atlanta","state":"Georgia","st":"GA","address":"91 Declaration Avenue","zip":"31119","lat":33.8913,"long":-84.0746,"short_name":"Opela","full_name":"Opela Car Dealership"},{"id":44,"city":"Roanoke","state":"Virginia","st":"VA","address":"0 Northview Point","zip":"24014","lat":37.2327,"long":-79.9463,"short_name":"Veribet","full_name":"Veribet Car Dealership"},{"id":45,"city":"Norfolk","state":"Virginia","st":"VA","address":"283 Mockingbird Plaza","zip":"23509","lat":36.8787,"long":-76.2604,"short_name":"Konklux","full_name":"Konklux Car Dealership"},{"id":46,"city":"New Orleans","state":"Louisiana","st":"LA","address":"527 Hayes Junction","zip":"70165","lat":30.033,"long":-89.8826,"short_name":"Regrant","full_name":"Regrant Car Dealership"},{"id":47,"city":"Stamford","state":"Connecticut","st":"CT","address":"840 Pepper Wood Crossing","zip":"06905","lat":41.0888,"long":-73.5435,"short_name":"Prodder","full_name":"Prodder Car Dealership"},{"id":48,"city":"Tucson","state":"Arizona","st":"AZ","address":"48610 Morning Street","zip":"85710","lat":32.2138,"long":-110.824,"short_name":"It","full_name":"It Car Dealership"},{"id":49,"city":"Athens","state":"Georgia","st":"GA","address":"222 Grasskamp Plaza","zip":"30605","lat":33.9321,"long":-83.3525,"short_name":"Veribet","full_name":"Veribet Car Dealership"},{"id":50,"city":"Atlanta","state":"Georgia","st":"GA","address":"76 Clove Trail","zip":"30316","lat":33.7217,"long":-84.3339,"short_name":"Aerified","full_name":"Aerified Car Dealership"}]
 
 
 ============================================================
 TASK 10
 ============================================================
-$ curl http://127.0.0.1:8000/djangoapp/dealer/1
-{"dealer": {"id": 1, "city": "El Paso", "state": "Texas", "st": "TX", "address": "3 Nova Court", "zip": "88563", "lat": 31.6948, "long": -106.3, "short_name": "Holdlamis", "full_name": "Holdlamis Car Dealership"}}
+curl -X GET "http://127.0.0.1:3030/fetchDealer/8"
+{"id":8,"city":"Topeka","state":"Kansas","st":"KS","address":"288 Larry Place","zip":"66642","lat":39.0429,"long":-95.7697,"short_name":"Bytecard","full_name":"Bytecard Car Dealership"}
 
 
 ============================================================
 TASK 11
 ============================================================
-$ curl http://127.0.0.1:8000/djangoapp/get_dealers/Kansas
-{"dealers": [{"id": 8, "city": "Topeka", "state": "Kansas", "st": "KS", "address": "288 Larry Place", "zip": "66642", "lat": 39.0429, "long": -95.7697, "short_name": "Bytecard", "full_name": "Bytecard Car Dealership"}]}
+curl -X GET "http://127.0.0.1:3030/fetchDealers/Kansas"
+[{"id":8,"city":"Topeka","state":"Kansas","st":"KS","address":"288 Larry Place","zip":"66642","lat":39.0429,"long":-95.7697,"short_name":"Bytecard","full_name":"Bytecard Car Dealership"}]
 
 
 ============================================================
@@ -157,9 +103,8 @@ $ curl http://127.0.0.1:8000/djangoapp/get_cars
 ============================================================
 TASK 16
 ============================================================
-$ curl "http://127.0.0.1:5050/analyze/Fantastic%20services"
+curl -X GET "http://127.0.0.1:5050/analyze/Fantastic%20services"
 {"score":0.5574,"sentiment":"positive"}
-
 
 
 ============================================================
@@ -195,963 +140,60 @@ Upload evidence/added_review.png
 ============================================================
 TASK 23
 ============================================================
-GitHub Actions: https://github.com/Tenma24/cars-dealership-capstone/actions/runs/39302067786
-Job: 118229540872
+GitHub Actions: Capstone CI
+Run ID: 39304647811
+URL: https://github.com/Tenma24/cars-dealership-capstone/actions/runs/39304647811
+Commit: 954ccdd1cfc9c8377f722009ed635116694429d5
+Status: completed
 Conclusion: success
 
-﻿2026-10-19T18:23:23.6911166Z Current runner version: '2.337.0'
-2026-10-19T18:23:23.6928326Z ##[group]Runner Image Provisioner
-2026-10-19T18:23:23.6928851Z Hosted Compute Agent
-2026-10-19T18:23:23.6929195Z Version: 20261015.610
-2026-10-19T18:23:23.6929587Z Commit: 267fdb4e8bbec4ab5ea31367f3a00d5c480c7656
-2026-10-19T18:23:23.6930001Z Build Date: 2026-10-14T17:06:54Z
-2026-10-19T18:23:23.6930395Z Worker ID: {27a509f2-9c31-4c07-b494-0d6f025b5029}
-2026-10-19T18:23:23.6930815Z Region: centralus
-2026-10-19T18:23:23.6931155Z Cloud: Azure
-2026-10-19T18:23:23.6931480Z ##[endgroup]
-2026-10-19T18:23:23.6932270Z ##[group]Operating System
-2026-10-19T18:23:23.6932604Z Ubuntu
-2026-10-19T18:23:23.6933119Z 22.04.5
-2026-10-19T18:23:23.6933420Z LTS
-2026-10-19T18:23:23.6933906Z ##[endgroup]
-2026-10-19T18:23:23.6934263Z ##[group]Runner Image
-2026-10-19T18:23:23.6934619Z Image: ubuntu-22.04
-2026-10-19T18:23:23.6934953Z Version: 20261018.327.1
-2026-10-19T18:23:23.6935698Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20261018.327/images/ubuntu/Ubuntu2204-Readme.md
-2026-10-19T18:23:23.6936559Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20261018.327
-2026-10-19T18:23:23.6937110Z ##[endgroup]
-2026-10-19T18:23:23.6937761Z ##[group]GITHUB_TOKEN Permissions
-2026-10-19T18:23:23.6939093Z Contents: read
-2026-10-19T18:23:23.6939470Z Metadata: read
-2026-10-19T18:23:23.6939796Z ##[endgroup]
-2026-10-19T18:23:23.6941126Z Secret source: Actions
-2026-10-19T18:23:23.6941648Z Cache mode: write
-2026-10-19T18:23:23.6942169Z Prepare workflow directory
-2026-10-19T18:23:23.7237078Z Prepare all required actions
-2026-10-19T18:23:23.7268629Z Getting action download info
-2026-10-19T18:23:23.9734602Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
-2026-10-19T18:23:24.1134325Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
-2026-10-19T18:23:24.1886464Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
-2026-10-19T18:23:24.3882744Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
-2026-10-19T18:23:24.5659273Z Complete job name: test
-2026-10-19T18:23:24.5925432Z ##[group]Checking docker version
-2026-10-19T18:23:24.5933696Z ##[command]/usr/bin/docker version --format '{{.Server.APIVersion}}'
-2026-10-19T18:23:24.6240186Z '1.48'
-2026-10-19T18:23:24.6250181Z Docker daemon API version: '1.48'
-2026-10-19T18:23:24.6250634Z ##[command]/usr/bin/docker version --format '{{.Client.APIVersion}}'
-2026-10-19T18:23:24.6353555Z '1.48'
-2026-10-19T18:23:24.6360818Z Docker client API version: '1.48'
-2026-10-19T18:23:24.6365774Z ##[endgroup]
-2026-10-19T18:23:24.6367071Z ##[group]Clean up resources from previous jobs
-2026-10-19T18:23:24.6370630Z ##[command]/usr/bin/docker ps --all --quiet --no-trunc --filter "label=45a706"
-2026-10-19T18:23:24.6465355Z ##[command]/usr/bin/docker network prune --force --filter "label=45a706"
-2026-10-19T18:23:24.6550449Z ##[endgroup]
-2026-10-19T18:23:24.6550769Z ##[group]Create local container network
-2026-10-19T18:23:24.6556908Z ##[command]/usr/bin/docker network create --label 45a706 github_network_60419137bfeb400bac6fdb1c11b424d5
-2026-10-19T18:23:24.6852154Z a6c9c484eb4875c05325bf69b77bc44677f1f3eafff9e9a68494baf313b3310d
-2026-10-19T18:23:24.6861881Z ##[endgroup]
-2026-10-19T18:23:24.6880430Z ##[group]Starting mongo service container
-2026-10-19T18:23:24.6895317Z ##[command]/usr/bin/docker pull mongo:8
-2026-10-19T18:23:25.2522555Z 8: Pulling from library/mongo
-2026-10-19T18:23:25.4221056Z f2b4ef06ff01: Pulling fs layer
-2026-10-19T18:23:25.4221993Z 2a5283701714: Pulling fs layer
-2026-10-19T18:23:25.4222709Z 035e14d0a929: Pulling fs layer
-2026-10-19T18:23:25.4223407Z 6abf326b3364: Pulling fs layer
-2026-10-19T18:23:25.4224187Z c344c51cc74f: Pulling fs layer
-2026-10-19T18:23:25.4224911Z 9d262346b5a5: Pulling fs layer
-2026-10-19T18:23:25.4225625Z 537537bbde4c: Pulling fs layer
-2026-10-19T18:23:25.4226328Z d90d7952f291: Pulling fs layer
-2026-10-19T18:23:25.4227269Z c344c51cc74f: Waiting
-2026-10-19T18:23:25.4227879Z 9d262346b5a5: Waiting
-2026-10-19T18:23:25.4228482Z 537537bbde4c: Waiting
-2026-10-19T18:23:25.4229072Z d90d7952f291: Waiting
-2026-10-19T18:23:25.4229742Z 6abf326b3364: Waiting
-2026-10-19T18:23:25.6102032Z 2a5283701714: Download complete
-2026-10-19T18:23:25.6196139Z 035e14d0a929: Verifying Checksum
-2026-10-19T18:23:25.6196528Z 035e14d0a929: Download complete
-2026-10-19T18:23:25.7247176Z f2b4ef06ff01: Verifying Checksum
-2026-10-19T18:23:25.8277926Z f2b4ef06ff01: Download complete
-2026-10-19T18:23:25.8278427Z 6abf326b3364: Verifying Checksum
-2026-10-19T18:23:25.8278784Z 6abf326b3364: Download complete
-2026-10-19T18:23:25.8578423Z c344c51cc74f: Download complete
-2026-10-19T18:23:25.9223208Z 9d262346b5a5: Download complete
-2026-10-19T18:23:26.0037370Z d90d7952f291: Verifying Checksum
-2026-10-19T18:23:26.0038642Z d90d7952f291: Download complete
-2026-10-19T18:23:26.2557223Z f2b4ef06ff01: Pull complete
-2026-10-19T18:23:26.9576289Z 537537bbde4c: Verifying Checksum
-2026-10-19T18:23:26.9576826Z 537537bbde4c: Download complete
-2026-10-19T18:23:28.0080820Z 2a5283701714: Pull complete
-2026-10-19T18:23:28.1062133Z 035e14d0a929: Pull complete
-2026-10-19T18:23:28.1341717Z 6abf326b3364: Pull complete
-2026-10-19T18:23:28.1435475Z c344c51cc74f: Pull complete
-2026-10-19T18:23:28.1523389Z 9d262346b5a5: Pull complete
-2026-10-19T18:23:33.7270229Z 537537bbde4c: Pull complete
-2026-10-19T18:23:33.7338297Z d90d7952f291: Pull complete
-2026-10-19T18:23:33.7367167Z Digest: sha256:0e900a3364da37b76d642b73b0bba56bd4c6c509ab470cf700436fd866bee3ff
-2026-10-19T18:23:33.7377739Z Status: Downloaded newer image for mongo:8
-2026-10-19T18:23:33.7386085Z docker.io/library/mongo:8
-2026-10-19T18:23:33.7406821Z ##[command]/usr/bin/docker create --name 4e4bf9b67a6c47478e7a381d413b89e8_mongo8_082e6f --label 45a706 --network github_network_60419137bfeb400bac6fdb1c11b424d5 --network-alias mongo -p 27017:27017 --health-cmd "mongosh --quiet --eval 'db.adminCommand({ping:1}).ok'" --health-interval 10s --health-timeout 5s --health-retries 10 -e GITHUB_ACTIONS=true -e CI=true mongo:8
-2026-10-19T18:23:33.7568446Z 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:33.7585773Z ##[command]/usr/bin/docker start 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:33.8600025Z 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:33.8615025Z ##[command]/usr/bin/docker ps --all --filter id=2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8 --filter status=running --no-trunc --format "{{.ID}} {{.Status}}"
-2026-10-19T18:23:33.8711012Z 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8 Up Less than a second (health: starting)
-2026-10-19T18:23:33.8723435Z ##[command]/usr/bin/docker port 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:33.8905571Z 27017/tcp -> 0.0.0.0:27017
-2026-10-19T18:23:33.8906581Z 27017/tcp -> [::]:27017
-2026-10-19T18:23:33.8936803Z ##[endgroup]
-2026-10-19T18:23:33.8943491Z ##[group]Waiting for all services to be ready
-2026-10-19T18:23:33.8952843Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:33.9057039Z starting
-2026-10-19T18:23:33.9066057Z mongo service is starting, waiting 2 seconds before checking again.
-2026-10-19T18:23:35.9067844Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:35.9154136Z starting
-2026-10-19T18:23:35.9160293Z mongo service is starting, waiting 4 seconds before checking again.
-2026-10-19T18:23:40.3045059Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:40.3132178Z starting
-2026-10-19T18:23:40.3140387Z mongo service is starting, waiting 7 seconds before checking again.
-2026-10-19T18:23:48.1577426Z ##[command]/usr/bin/docker inspect --format="{{if .Config.Healthcheck}}{{print .State.Health.Status}}{{end}}" 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:23:48.1662274Z healthy
-2026-10-19T18:23:48.1671835Z mongo service is healthy.
-2026-10-19T18:23:48.1672353Z ##[endgroup]
-2026-10-19T18:23:48.1900462Z ##[group]Run actions/checkout@v4
-2026-10-19T18:23:48.1900769Z with:
-2026-10-19T18:23:48.1900916Z   repository: Tenma24/cars-dealership-capstone
-2026-10-19T18:23:48.1902302Z   token: ***
-2026-10-19T18:23:48.1902414Z   ssh-strict: true
-2026-10-19T18:23:48.1902528Z   ssh-user: git
-2026-10-19T18:23:48.1902649Z   persist-credentials: true
-2026-10-19T18:23:48.1902783Z   clean: true
-2026-10-19T18:23:48.1902912Z   sparse-checkout-cone-mode: true
-2026-10-19T18:23:48.1903055Z   fetch-depth: 1
-2026-10-19T18:23:48.1903165Z   fetch-tags: false
-2026-10-19T18:23:48.1903281Z   show-progress: true
-2026-10-19T18:23:48.1903414Z   lfs: false
-2026-10-19T18:23:48.1903518Z   submodules: false
-2026-10-19T18:23:48.1903634Z   set-safe-directory: true
-2026-10-19T18:23:48.1903887Z   allow-unsafe-pr-checkout: false
-2026-10-19T18:23:48.1904106Z ##[endgroup]
-2026-10-19T18:23:48.2497880Z Syncing repository: Tenma24/cars-dealership-capstone
-2026-10-19T18:23:48.2498786Z ##[group]Getting Git version info
-2026-10-19T18:23:48.2499161Z Working directory is '/home/runner/work/cars-dealership-capstone/cars-dealership-capstone'
-2026-10-19T18:23:48.2499530Z [command]/usr/bin/git version
-2026-10-19T18:23:48.2514128Z git version 2.55.0
-2026-10-19T18:23:48.2525957Z ##[endgroup]
-2026-10-19T18:23:48.2535030Z Temporarily overriding HOME='/home/runner/work/_temp/02968405-81eb-4330-8d73-f13cd65b2f7b' before making global git config changes
-2026-10-19T18:23:48.2535831Z Adding repository directory to the temporary git global config as a safe directory
-2026-10-19T18:23:48.2538587Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cars-dealership-capstone/cars-dealership-capstone
-2026-10-19T18:23:48.2559330Z Deleting the contents of '/home/runner/work/cars-dealership-capstone/cars-dealership-capstone'
-2026-10-19T18:23:48.2562105Z ##[group]Initializing the repository
-2026-10-19T18:23:48.2564957Z [command]/usr/bin/git init /home/runner/work/cars-dealership-capstone/cars-dealership-capstone
-2026-10-19T18:23:48.2622708Z hint: Using 'master' as the name for the initial branch. This default branch name
-2026-10-19T18:23:48.2623334Z hint: will change to "main" in Git 3.0. To configure the initial branch name
-2026-10-19T18:23:48.2624033Z hint: to use in all of your new repositories, which will suppress this warning,
-2026-10-19T18:23:48.2625362Z hint: call:
-2026-10-19T18:23:48.2626281Z hint:
-2026-10-19T18:23:48.2627046Z hint: 	git config --global init.defaultBranch <name>
-2026-10-19T18:23:48.2627374Z hint:
-2026-10-19T18:23:48.2627635Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-2026-10-19T18:23:48.2628087Z hint: 'development'. The just-created branch can be renamed via this command:
-2026-10-19T18:23:48.2628419Z hint:
-2026-10-19T18:23:48.2628602Z hint: 	git branch -m <name>
-2026-10-19T18:23:48.2628809Z hint:
-2026-10-19T18:23:48.2629073Z hint: Disable this message with "git config set advice.defaultBranchName false"
-2026-10-19T18:23:48.2629622Z Initialized empty Git repository in /home/runner/work/cars-dealership-capstone/cars-dealership-capstone/.git/
-2026-10-19T18:23:48.2630808Z [command]/usr/bin/git remote add origin https://github.com/Tenma24/cars-dealership-capstone
-2026-10-19T18:23:48.2650435Z ##[endgroup]
-2026-10-19T18:23:48.2650853Z ##[group]Disabling automatic garbage collection
-2026-10-19T18:23:48.2654009Z [command]/usr/bin/git config --local gc.auto 0
-2026-10-19T18:23:48.2670389Z ##[endgroup]
-2026-10-19T18:23:48.2670759Z ##[group]Setting up auth
-2026-10-19T18:23:48.2675630Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
-2026-10-19T18:23:48.2692315Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
-2026-10-19T18:23:48.2867061Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-2026-10-19T18:23:48.2887932Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
-2026-10-19T18:23:48.3007149Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
-2026-10-19T18:23:48.3026876Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
-2026-10-19T18:23:48.3130323Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
-2026-10-19T18:23:48.3151967Z ##[endgroup]
-2026-10-19T18:23:48.3152284Z ##[group]Fetching the repository
-2026-10-19T18:23:48.3157545Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +56807712df9ed3ae87d6d1c17463689ae3be31be:refs/remotes/origin/main
-2026-10-19T18:23:48.9190843Z From https://github.com/Tenma24/cars-dealership-capstone
-2026-10-19T18:23:48.9191232Z  * [new ref]         56807712df9ed3ae87d6d1c17463689ae3be31be -> origin/main
-2026-10-19T18:23:48.9194099Z ##[endgroup]
-2026-10-19T18:23:48.9194475Z ##[group]Determining the checkout info
-2026-10-19T18:23:48.9196156Z ##[endgroup]
-2026-10-19T18:23:48.9200305Z [command]/usr/bin/git sparse-checkout disable
-2026-10-19T18:23:48.9224774Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
-2026-10-19T18:23:48.9241704Z ##[group]Checking out the ref
-2026-10-19T18:23:48.9244451Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
-2026-10-19T18:23:48.9407586Z Switched to a new branch 'main'
-2026-10-19T18:23:48.9407932Z branch 'main' set up to track 'origin/main'.
-2026-10-19T18:23:48.9411592Z ##[endgroup]
-2026-10-19T18:23:48.9436386Z [command]/usr/bin/git log -1 --format=%H
-2026-10-19T18:23:48.9451468Z 56807712df9ed3ae87d6d1c17463689ae3be31be
-2026-10-19T18:23:48.9606689Z ##[group]Run actions/setup-python@v5
-2026-10-19T18:23:48.9606853Z with:
-2026-10-19T18:23:48.9606966Z   python-version: 3.12
-2026-10-19T18:23:48.9607092Z   check-latest: false
-2026-10-19T18:23:48.9608405Z   token: ***
-2026-10-19T18:23:48.9608527Z   update-environment: true
-2026-10-19T18:23:48.9608660Z   allow-prereleases: false
-2026-10-19T18:23:48.9608785Z   freethreaded: false
-2026-10-19T18:23:48.9608906Z ##[endgroup]
-2026-10-19T18:23:49.0401734Z ##[group]Installed versions
-2026-10-19T18:23:49.0452647Z (node:2418) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-2026-10-19T18:23:49.0453042Z (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-10-19T18:23:49.0453338Z Successfully set up CPython (3.12.15)
-2026-10-19T18:23:49.0453836Z ##[endgroup]
-2026-10-19T18:23:49.0587646Z ##[group]Run actions/setup-node@v4
-2026-10-19T18:23:49.0587888Z with:
-2026-10-19T18:23:49.0588054Z   node-version: 24
-2026-10-19T18:23:49.0588235Z   always-auth: false
-2026-10-19T18:23:49.0588424Z   check-latest: false
-2026-10-19T18:23:49.0590525Z   token: ***
-2026-10-19T18:23:49.0590691Z env:
-2026-10-19T18:23:49.0590916Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.0591312Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:23:49.0591693Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.0592038Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.0592382Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.0592727Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:23:49.0593016Z ##[endgroup]
-2026-10-19T18:23:49.1604715Z Found in cache @ /opt/hostedtoolcache/node/24.22.0/x64
-2026-10-19T18:23:49.1607475Z (node:2426) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-2026-10-19T18:23:49.1607850Z (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-10-19T18:23:49.1609207Z ##[group]Environment details
-2026-10-19T18:23:49.3614178Z node: v24.22.0
-2026-10-19T18:23:49.3614504Z npm: 11.19.1
-2026-10-19T18:23:49.3614676Z yarn: 1.22.22
-2026-10-19T18:23:49.3615212Z ##[endgroup]
-2026-10-19T18:23:49.3727602Z ##[group]Run pip install -r server/requirements.txt -r server/djangoapp/microservices/requirements.txt
-2026-10-19T18:23:49.3728045Z pip install -r server/requirements.txt -r server/djangoapp/microservices/requirements.txt
-2026-10-19T18:23:49.3877572Z shell: /usr/bin/bash -e {0}
-2026-10-19T18:23:49.3877728Z env:
-2026-10-19T18:23:49.3877885Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.3878129Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:23:49.3878379Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.3878591Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.3878800Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:49.3879013Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:23:49.3879193Z ##[endgroup]
-2026-10-19T18:23:55.0878605Z Collecting Django==5.2.18 (from -r server/requirements.txt (line 1))
-2026-10-19T18:23:55.1635982Z   Downloading django-5.2.18-py3-none-any.whl.metadata (4.1 kB)
-2026-10-19T18:23:55.1879826Z Collecting requests==2.34.2 (from -r server/requirements.txt (line 2))
-2026-10-19T18:23:55.2034670Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
-2026-10-19T18:23:55.2239552Z Collecting whitenoise==6.12.0 (from -r server/requirements.txt (line 3))
-2026-10-19T18:23:55.2390102Z   Downloading whitenoise-6.12.0-py3-none-any.whl.metadata (3.7 kB)
-2026-10-19T18:23:55.2585930Z Collecting waitress==3.0.2 (from -r server/requirements.txt (line 4))
-2026-10-19T18:23:55.2734673Z   Downloading waitress-3.0.2-py3-none-any.whl.metadata (5.8 kB)
-2026-10-19T18:23:55.5545372Z Collecting coverage==7.16.2 (from -r server/requirements.txt (line 5))
-2026-10-19T18:23:55.5700932Z   Downloading coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.2 kB)
-2026-10-19T18:23:55.5912003Z Collecting Flask==3.1.3 (from -r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:55.6062849Z   Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
-2026-10-19T18:23:55.6248774Z Collecting vaderSentiment==3.3.2 (from -r server/djangoapp/microservices/requirements.txt (line 2))
-2026-10-19T18:23:55.6404711Z   Downloading vaderSentiment-3.3.2-py2.py3-none-any.whl.metadata (572 bytes)
-2026-10-19T18:23:55.6605618Z Collecting asgiref>=3.8.1 (from Django==5.2.18->-r server/requirements.txt (line 1))
-2026-10-19T18:23:55.6756305Z   Downloading asgiref-3.12.1-py3-none-any.whl.metadata (9.4 kB)
-2026-10-19T18:23:55.6948254Z Collecting sqlparse>=0.3.1 (from Django==5.2.18->-r server/requirements.txt (line 1))
-2026-10-19T18:23:55.7097353Z   Downloading sqlparse-0.6.0-py3-none-any.whl.metadata (6.0 kB)
-2026-10-19T18:23:55.7950741Z Collecting charset_normalizer<4,>=2 (from requests==2.34.2->-r server/requirements.txt (line 2))
-2026-10-19T18:23:55.8105845Z   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
-2026-10-19T18:23:55.8454293Z Collecting idna<4,>=2.5 (from requests==2.34.2->-r server/requirements.txt (line 2))
-2026-10-19T18:23:55.8606175Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
-2026-10-19T18:23:55.8837906Z Collecting urllib3<3,>=1.26 (from requests==2.34.2->-r server/requirements.txt (line 2))
-2026-10-19T18:23:55.8988662Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
-2026-10-19T18:23:55.9205599Z Collecting certifi>=2023.5.7 (from requests==2.34.2->-r server/requirements.txt (line 2))
-2026-10-19T18:23:55.9355931Z   Downloading certifi-2026.10.18-py3-none-any.whl.metadata (2.5 kB)
-2026-10-19T18:23:55.9536821Z Collecting blinker>=1.9.0 (from Flask==3.1.3->-r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:55.9694925Z   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
-2026-10-19T18:23:55.9896829Z Collecting click>=8.1.3 (from Flask==3.1.3->-r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:56.0048587Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
-2026-10-19T18:23:56.0232313Z Collecting itsdangerous>=2.2.0 (from Flask==3.1.3->-r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:56.0382950Z   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
-2026-10-19T18:23:56.0569189Z Collecting jinja2>=3.1.2 (from Flask==3.1.3->-r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:56.0720854Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
-2026-10-19T18:23:56.1165275Z Collecting markupsafe>=2.1.1 (from Flask==3.1.3->-r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:56.1317801Z   Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
-2026-10-19T18:23:56.1531952Z Collecting werkzeug>=3.1.0 (from Flask==3.1.3->-r server/djangoapp/microservices/requirements.txt (line 1))
-2026-10-19T18:23:56.1683447Z   Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
-2026-10-19T18:23:56.1890972Z Downloading django-5.2.18-py3-none-any.whl (8.3 MB)
-2026-10-19T18:23:56.3181535Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 80.1 MB/s  0:00:00
-2026-10-19T18:23:56.3335864Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
-2026-10-19T18:23:56.3504539Z Downloading whitenoise-6.12.0-py3-none-any.whl (20 kB)
-2026-10-19T18:23:56.3674140Z Downloading waitress-3.0.2-py3-none-any.whl (56 kB)
-2026-10-19T18:23:56.3840435Z Downloading coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (258 kB)
-2026-10-19T18:23:56.4008933Z Downloading flask-3.1.3-py3-none-any.whl (103 kB)
-2026-10-19T18:23:56.4175634Z Downloading vaderSentiment-3.3.2-py2.py3-none-any.whl (125 kB)
-2026-10-19T18:23:56.4339880Z Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
-2026-10-19T18:23:56.4511519Z Downloading idna-3.20-py3-none-any.whl (69 kB)
-2026-10-19T18:23:56.4679622Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
-2026-10-19T18:23:56.4842455Z Downloading asgiref-3.12.1-py3-none-any.whl (25 kB)
-2026-10-19T18:23:56.5004304Z Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
-2026-10-19T18:23:56.5166048Z Downloading certifi-2026.10.18-py3-none-any.whl (134 kB)
-2026-10-19T18:23:56.5328808Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
-2026-10-19T18:23:56.5490411Z Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
-2026-10-19T18:23:56.5652889Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
-2026-10-19T18:23:56.5819856Z Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
-2026-10-19T18:23:56.5984512Z Downloading sqlparse-0.6.0-py3-none-any.whl (50 kB)
-2026-10-19T18:23:56.6153364Z Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
-2026-10-19T18:23:56.9902221Z Installing collected packages: whitenoise, waitress, urllib3, sqlparse, markupsafe, itsdangerous, idna, coverage, click, charset_normalizer, certifi, blinker, asgiref, werkzeug, requests, jinja2, Django, vaderSentiment, Flask
-2026-10-19T18:23:58.5968681Z 
-2026-10-19T18:23:58.5984283Z Successfully installed Django-5.2.18 Flask-3.1.3 asgiref-3.12.1 blinker-1.9.0 certifi-2026.10.18 charset_normalizer-3.5.2 click-8.5.0 coverage-7.16.2 idna-3.20 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 requests-2.34.2 sqlparse-0.6.0 urllib3-2.8.0 vaderSentiment-3.3.2 waitress-3.0.2 werkzeug-3.1.9 whitenoise-6.12.0
-2026-10-19T18:23:58.6685474Z ##[group]Run python manage.py check
-2026-10-19T18:23:58.6685698Z python manage.py check
-2026-10-19T18:23:58.6686028Z coverage run --source=djangoapp --omit='*/tests.py,*/migrations/*,*/microservices/*,*/management/*,*/populate.py' manage.py test djangoapp
-2026-10-19T18:23:58.6686375Z coverage report --fail-under=80
-2026-10-19T18:23:58.6701665Z shell: /usr/bin/bash -e {0}
-2026-10-19T18:23:58.6701796Z env:
-2026-10-19T18:23:58.6701941Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:58.6702176Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:23:58.6702404Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:58.6702609Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:58.6702814Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:23:58.6703023Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:23:58.6703240Z ##[endgroup]
-2026-10-19T18:24:00.5930993Z System check identified no issues (0 silenced).
-2026-10-19T18:24:01.5377100Z Creating test database for alias 'default'...
-2026-10-19T18:24:02.0451751Z /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/django/core/handlers/base.py:61: UserWarning: No directory at: /home/runner/work/cars-dealership-capstone/cars-dealership-capstone/server/staticfiles/
-2026-10-19T18:24:02.0452318Z   mw_instance = middleware(adapted_handler)
-2026-10-19T18:24:04.2672951Z ...............
-2026-10-19T18:24:04.2673551Z ----------------------------------------------------------------------
-2026-10-19T18:24:04.2674003Z Ran 15 tests in 2.395s
-2026-10-19T18:24:04.2674093Z 
-2026-10-19T18:24:04.2674340Z OK
-2026-10-19T18:24:04.2674578Z Destroying test database for alias 'default'...
-2026-10-19T18:24:04.2697466Z Found 15 test(s).
-2026-10-19T18:24:04.2697692Z System check identified no issues (0 silenced).
-2026-10-19T18:24:04.4096004Z Name                      Stmts   Miss  Cover
-2026-10-19T18:24:04.4096399Z ---------------------------------------------
-2026-10-19T18:24:04.4096713Z djangoapp/__init__.py         0      0   100%
-2026-10-19T18:24:04.4097012Z djangoapp/admin.py           11      0   100%
-2026-10-19T18:24:04.4097309Z djangoapp/apps.py             3      0   100%
-2026-10-19T18:24:04.4097598Z djangoapp/middleware.py       9      0   100%
-2026-10-19T18:24:04.4097885Z djangoapp/models.py          16      0   100%
-2026-10-19T18:24:04.4098168Z djangoapp/restapis.py        14      0   100%
-2026-10-19T18:24:04.4098451Z djangoapp/urls.py             4      0   100%
-2026-10-19T18:24:04.4098733Z djangoapp/views.py          112      0   100%
-2026-10-19T18:24:04.4099020Z ---------------------------------------------
-2026-10-19T18:24:04.4099300Z TOTAL                       169      0   100%
-2026-10-19T18:24:04.4246276Z ##[group]Run npm ci && npm run build
-2026-10-19T18:24:04.4246594Z npm ci && npm run build
-2026-10-19T18:24:04.4266354Z shell: /usr/bin/bash -e {0}
-2026-10-19T18:24:04.4266580Z env:
-2026-10-19T18:24:04.4266827Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:04.4267225Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:24:04.4267611Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:04.4267955Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:04.4268298Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:04.4268647Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:24:04.4268938Z ##[endgroup]
-2026-10-19T18:24:05.7459808Z 
-2026-10-19T18:24:05.7460593Z added 72 packages, and audited 73 packages in 1s
-2026-10-19T18:24:05.7460891Z 
-2026-10-19T18:24:05.7461058Z 9 packages are looking for funding
-2026-10-19T18:24:05.7468714Z   run `npm fund` for details
-2026-10-19T18:24:05.7468870Z 
-2026-10-19T18:24:05.7468954Z found 0 vulnerabilities
-2026-10-19T18:24:05.7473694Z npm warn install-scripts 1 package has install scripts not yet covered by allowScripts:
-2026-10-19T18:24:05.7474189Z npm warn install-scripts   esbuild@0.28.2 (postinstall: node install.js)
-2026-10-19T18:24:05.7474418Z npm warn install-scripts
-2026-10-19T18:24:05.7474750Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
-2026-10-19T18:24:05.8379442Z 
-2026-10-19T18:24:05.8379991Z > cars-dealership-ui@1.0.0 build
-2026-10-19T18:24:05.8380224Z > vite build
-2026-10-19T18:24:05.8380308Z 
-2026-10-19T18:24:05.9670320Z vite v7.3.7 building client environment for production...
-2026-10-19T18:24:06.0060070Z transforming...
-2026-10-19T18:24:06.5691021Z ✓ 31 modules transformed.
-2026-10-19T18:24:06.6525722Z rendering chunks...
-2026-10-19T18:24:06.6570203Z computing gzip size...
-2026-10-19T18:24:06.6627911Z build/index.html                   0.51 kB │ gzip:  0.33 kB
-2026-10-19T18:24:06.6628432Z build/assets/index-BVLMRveR.css    6.18 kB │ gzip:  2.02 kB
-2026-10-19T18:24:06.6629060Z build/assets/index-DHAC2Zaz.js   234.33 kB │ gzip: 72.79 kB
-2026-10-19T18:24:06.6629513Z ✓ built in 677ms
-2026-10-19T18:24:06.6852267Z ##[group]Run npm ci && npm test
-2026-10-19T18:24:06.6852450Z npm ci && npm test
-2026-10-19T18:24:06.6867867Z shell: /usr/bin/bash -e {0}
-2026-10-19T18:24:06.6868006Z env:
-2026-10-19T18:24:06.6868155Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:06.6868398Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:24:06.6868629Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:06.6868838Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:06.6869047Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:06.6869273Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:24:06.6869476Z   MONGODB_URL: mongodb://127.0.0.1:27017
-2026-10-19T18:24:06.6869638Z   SERVICE_TOKEN: ci-test-service-token
-2026-10-19T18:24:06.6869784Z ##[endgroup]
-2026-10-19T18:24:07.3056610Z 
-2026-10-19T18:24:07.3057507Z added 79 packages, and audited 80 packages in 586ms
-2026-10-19T18:24:07.3057826Z 
-2026-10-19T18:24:07.3057999Z 29 packages are looking for funding
-2026-10-19T18:24:07.3058286Z   run `npm fund` for details
-2026-10-19T18:24:07.3063856Z 
-2026-10-19T18:24:07.3064236Z found 0 vulnerabilities
-2026-10-19T18:24:07.3809042Z 
-2026-10-19T18:24:07.3809835Z > dealership-data-service@1.0.0 test
-2026-10-19T18:24:07.3810186Z > node --test
-2026-10-19T18:24:07.3810304Z 
-2026-10-19T18:24:07.5790656Z Dealership service ready
-2026-10-19T18:24:07.6272438Z ✔ dealer and review queries (89.501211ms)
-2026-10-19T18:24:07.6525634Z ✔ review writes require service authentication and persist (28.577226ms)
-2026-10-19T18:24:07.6620177Z ℹ tests 2
-2026-10-19T18:24:07.6620430Z ℹ suites 0
-2026-10-19T18:24:07.6620627Z ℹ pass 2
-2026-10-19T18:24:07.6620825Z ℹ fail 0
-2026-10-19T18:24:07.6621010Z ℹ cancelled 0
-2026-10-19T18:24:07.6621209Z ℹ skipped 0
-2026-10-19T18:24:07.6621399Z ℹ todo 0
-2026-10-19T18:24:07.6621662Z ℹ duration_ms 259.514624
-2026-10-19T18:24:07.6710514Z ##[group]Run python -m unittest discover -s server/djangoapp/microservices -p 'test_*.py'
-2026-10-19T18:24:07.6710870Z python -m unittest discover -s server/djangoapp/microservices -p 'test_*.py'
-2026-10-19T18:24:07.6725484Z shell: /usr/bin/bash -e {0}
-2026-10-19T18:24:07.6725623Z env:
-2026-10-19T18:24:07.6725771Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.6726002Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:24:07.6726236Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.6726442Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.6726769Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.6726997Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:24:07.6727176Z ##[endgroup]
-2026-10-19T18:24:07.7819676Z ..
-2026-10-19T18:24:07.7820213Z ----------------------------------------------------------------------
-2026-10-19T18:24:07.7820568Z Ran 2 tests in 0.008s
-2026-10-19T18:24:07.7820702Z 
-2026-10-19T18:24:07.7820755Z OK
-2026-10-19T18:24:07.8069548Z ##[group]Run python scripts/run_local.py > /tmp/capstone.log 2>&1 &
-2026-10-19T18:24:07.8069845Z python scripts/run_local.py > /tmp/capstone.log 2>&1 &
-2026-10-19T18:24:07.8070038Z cd server/frontend
-2026-10-19T18:24:07.8070204Z npx playwright install --with-deps chromium
-2026-10-19T18:24:07.8070379Z npm run test:e2e
-2026-10-19T18:24:07.8084731Z shell: /usr/bin/bash -e {0}
-2026-10-19T18:24:07.8084869Z env:
-2026-10-19T18:24:07.8085017Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.8085264Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:24:07.8085497Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.8085706Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.8085910Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:07.8086151Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:24:07.8086329Z ##[endgroup]
-2026-10-19T18:24:08.2609452Z Installing dependencies...
-2026-10-19T18:24:08.2659478Z Switching to root user to install dependencies...
-2026-10-19T18:24:08.3411776Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
-2026-10-19T18:24:08.3834416Z Hit:2 http://azure.archive.ubuntu.com/ubuntu jammy InRelease
-2026-10-19T18:24:08.3865498Z Get:3 http://azure.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
-2026-10-19T18:24:08.3914896Z Get:4 http://azure.archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
-2026-10-19T18:24:08.3915786Z Get:5 http://azure.archive.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
-2026-10-19T18:24:08.3966800Z Hit:6 https://packages.microsoft.com/ubuntu/22.04/prod jammy InRelease
-2026-10-19T18:24:08.5577369Z Get:7 http://azure.archive.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3643 kB]
-2026-10-19T18:24:08.5743547Z Get:8 http://azure.archive.ubuntu.com/ubuntu jammy-security/main Translation-en [510 kB]
-2026-10-19T18:24:08.5774522Z Get:9 http://azure.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1055 kB]
-2026-10-19T18:24:11.4931479Z Fetched 5592 kB in 1s (8441 kB/s)
-2026-10-19T18:24:12.3118540Z Reading package lists...
-2026-10-19T18:24:12.3472421Z Reading package lists...
-2026-10-19T18:24:12.5626783Z Building dependency tree...
-2026-10-19T18:24:12.5635077Z Reading state information...
-2026-10-19T18:24:12.6938211Z fonts-liberation is already the newest version (1:1.07.4-11).
-2026-10-19T18:24:12.6950282Z fonts-liberation set to manually installed.
-2026-10-19T18:24:12.6950704Z libatk-bridge2.0-0 is already the newest version (2.38.0-3).
-2026-10-19T18:24:12.6951068Z libatk-bridge2.0-0 set to manually installed.
-2026-10-19T18:24:12.6951424Z libatk1.0-0 is already the newest version (2.36.0-3build1).
-2026-10-19T18:24:12.6951680Z libatk1.0-0 set to manually installed.
-2026-10-19T18:24:12.6951889Z libatspi2.0-0 is already the newest version (2.44.0-3).
-2026-10-19T18:24:12.6952099Z libatspi2.0-0 set to manually installed.
-2026-10-19T18:24:12.6952327Z libfontconfig1 is already the newest version (2.13.1-4.2ubuntu5).
-2026-10-19T18:24:12.6952549Z libfontconfig1 set to manually installed.
-2026-10-19T18:24:12.6952753Z libxcb1 is already the newest version (1.14-3ubuntu3).
-2026-10-19T18:24:12.6952946Z libxcb1 set to manually installed.
-2026-10-19T18:24:12.6953172Z libxcomposite1 is already the newest version (1:0.4.5-1build2).
-2026-10-19T18:24:12.6953389Z libxcomposite1 set to manually installed.
-2026-10-19T18:24:12.6953609Z libxdamage1 is already the newest version (1:1.1.5-2build2).
-2026-10-19T18:24:12.6954164Z libxdamage1 set to manually installed.
-2026-10-19T18:24:12.6954374Z libxext6 is already the newest version (2:1.3.4-1build1).
-2026-10-19T18:24:12.6954572Z libxext6 set to manually installed.
-2026-10-19T18:24:12.6954776Z libxfixes3 is already the newest version (1:6.0.0-1).
-2026-10-19T18:24:12.6954974Z libxfixes3 set to manually installed.
-2026-10-19T18:24:12.6955323Z libxkbcommon0 is already the newest version (1.4.0-1).
-2026-10-19T18:24:12.6955525Z libxkbcommon0 set to manually installed.
-2026-10-19T18:24:12.6955736Z libxrandr2 is already the newest version (2:1.5.2-1build1).
-2026-10-19T18:24:12.6955941Z libxrandr2 set to manually installed.
-2026-10-19T18:24:12.6956200Z fonts-noto-color-emoji is already the newest version (2.047-0ubuntu0.22.04.1).
-2026-10-19T18:24:12.6956493Z libasound2 is already the newest version (1.2.6.1-1ubuntu1.2).
-2026-10-19T18:24:12.6956703Z libasound2 set to manually installed.
-2026-10-19T18:24:12.6956913Z libcairo2 is already the newest version (1.16.0-5ubuntu2.1).
-2026-10-19T18:24:12.6957125Z libcairo2 set to manually installed.
-2026-10-19T18:24:12.6957345Z libcups2 is already the newest version (2.4.1op1-1ubuntu4.21).
-2026-10-19T18:24:12.6957553Z libcups2 set to manually installed.
-2026-10-19T18:24:12.6957767Z libdbus-1-3 is already the newest version (1.12.20-2ubuntu4.1).
-2026-10-19T18:24:12.6957980Z libdbus-1-3 set to manually installed.
-2026-10-19T18:24:12.6958209Z libdrm2 is already the newest version (2.4.113-2~ubuntu0.22.04.1).
-2026-10-19T18:24:12.6958422Z libdrm2 set to manually installed.
-2026-10-19T18:24:12.6958649Z libfreetype6 is already the newest version (2.11.1+dfsg-1ubuntu0.4).
-2026-10-19T18:24:12.6958874Z libfreetype6 set to manually installed.
-2026-10-19T18:24:12.6959101Z libgbm1 is already the newest version (23.2.1-1ubuntu3.1~22.04.4).
-2026-10-19T18:24:12.6959316Z libgbm1 set to manually installed.
-2026-10-19T18:24:12.6959528Z libglib2.0-0 is already the newest version (2.72.4-0ubuntu2.10).
-2026-10-19T18:24:12.6959742Z libglib2.0-0 set to manually installed.
-2026-10-19T18:24:12.6959974Z libnspr4 is already the newest version (2:4.35-0ubuntu0.22.04.1).
-2026-10-19T18:24:12.6960230Z libnss3 is already the newest version (2:3.98-0ubuntu0.22.04.4).
-2026-10-19T18:24:12.6960487Z libpango-1.0-0 is already the newest version (1.50.6+ds-2ubuntu1).
-2026-10-19T18:24:12.6960707Z libpango-1.0-0 set to manually installed.
-2026-10-19T18:24:12.6960949Z libwayland-client0 is already the newest version (1.20.0-1ubuntu0.1).
-2026-10-19T18:24:12.6961195Z libwayland-client0 set to manually installed.
-2026-10-19T18:24:12.6961431Z xvfb is already the newest version (2:21.1.4-2ubuntu1.7~22.04.16).
-2026-10-19T18:24:12.6961683Z libx11-6 is already the newest version (2:1.7.5-1ubuntu0.4).
-2026-10-19T18:24:12.6961887Z libx11-6 set to manually installed.
-2026-10-19T18:24:12.6962090Z The following additional packages will be installed:
-2026-10-19T18:24:12.6962286Z   xfonts-encodings xfonts-utils
-2026-10-19T18:24:12.6965674Z Recommended packages:
-2026-10-19T18:24:12.6966165Z   fonts-ipafont-mincho fonts-tlwg-loma
-2026-10-19T18:24:12.7056541Z The following NEW packages will be installed:
-2026-10-19T18:24:12.7057152Z   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
-2026-10-19T18:24:12.7059831Z   fonts-wqy-zenhei xfonts-cyrillic xfonts-encodings xfonts-scalable
-2026-10-19T18:24:12.7060251Z   xfonts-utils
-2026-10-19T18:24:12.7155558Z 0 upgraded, 9 newly installed, 0 to remove and 38 not upgraded.
-2026-10-19T18:24:12.7155809Z Need to get 18.4 MB of archives.
-2026-10-19T18:24:12.7156046Z After this operation, 56.8 MB of additional disk space will be used.
-2026-10-19T18:24:12.7156484Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
-2026-10-19T18:24:12.7602577Z Get:2 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 fonts-ipafont-gothic all 00303-21ubuntu1 [3513 kB]
-2026-10-19T18:24:12.8219656Z Get:3 http://azure.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-freefont-ttf all 20120503-10build1 [2388 kB]
-2026-10-19T18:24:12.8586393Z Get:4 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 fonts-tlwg-loma-otf all 1:0.7.3-1 [107 kB]
-2026-10-19T18:24:12.8873967Z Get:5 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 fonts-unifont all 1:14.0.01-1 [3551 kB]
-2026-10-19T18:24:12.9460508Z Get:6 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 fonts-wqy-zenhei all 0.9.45-8 [7472 kB]
-2026-10-19T18:24:13.0389732Z Get:7 http://azure.archive.ubuntu.com/ubuntu jammy/main amd64 xfonts-encodings all 1:1.0.5-0ubuntu2 [578 kB]
-2026-10-19T18:24:13.0714391Z Get:8 http://azure.archive.ubuntu.com/ubuntu jammy/main amd64 xfonts-utils amd64 1:7.7+6build2 [94.6 kB]
-2026-10-19T18:24:13.1001011Z Get:9 http://azure.archive.ubuntu.com/ubuntu jammy/universe amd64 xfonts-cyrillic all 1:1.0.5 [386 kB]
-2026-10-19T18:24:13.1309817Z Get:10 http://azure.archive.ubuntu.com/ubuntu jammy/main amd64 xfonts-scalable all 1:1.0.3-1.2ubuntu1 [306 kB]
-2026-10-19T18:24:13.3334669Z Fetched 18.4 MB in 0s (43.4 MB/s)
-2026-10-19T18:24:13.3467437Z Selecting previously unselected package fonts-ipafont-gothic.
-2026-10-19T18:24:13.3625928Z (Reading database ... 
-2026-10-19T18:24:13.3626197Z (Reading database ... 5%
-2026-10-19T18:24:13.3626382Z (Reading database ... 10%
-2026-10-19T18:24:13.3626530Z (Reading database ... 15%
-2026-10-19T18:24:13.3626672Z (Reading database ... 20%
-2026-10-19T18:24:13.3626810Z (Reading database ... 25%
-2026-10-19T18:24:13.3626948Z (Reading database ... 30%
-2026-10-19T18:24:13.3627202Z (Reading database ... 35%
-2026-10-19T18:24:13.3627352Z (Reading database ... 40%
-2026-10-19T18:24:13.3627490Z (Reading database ... 45%
-2026-10-19T18:24:13.3627626Z (Reading database ... 50%
-2026-10-19T18:24:13.4254100Z (Reading database ... 55%
-2026-10-19T18:24:13.6293568Z (Reading database ... 60%
-2026-10-19T18:24:13.8370585Z (Reading database ... 65%
-2026-10-19T18:24:13.9264896Z (Reading database ... 70%
-2026-10-19T18:24:14.1338740Z (Reading database ... 75%
-2026-10-19T18:24:14.3698408Z (Reading database ... 80%
-2026-10-19T18:24:14.6795422Z (Reading database ... 85%
-2026-10-19T18:24:15.2206981Z (Reading database ... 90%
-2026-10-19T18:24:15.4285816Z (Reading database ... 95%
-2026-10-19T18:24:15.4286174Z (Reading database ... 100%
-2026-10-19T18:24:15.4286561Z (Reading database ... 262191 files and directories currently installed.)
-2026-10-19T18:24:15.4335069Z Preparing to unpack .../0-fonts-ipafont-gothic_00303-21ubuntu1_all.deb ...
-2026-10-19T18:24:15.4376469Z Unpacking fonts-ipafont-gothic (00303-21ubuntu1) ...
-2026-10-19T18:24:15.7044518Z Selecting previously unselected package fonts-freefont-ttf.
-2026-10-19T18:24:15.7141086Z Preparing to unpack .../1-fonts-freefont-ttf_20120503-10build1_all.deb ...
-2026-10-19T18:24:15.7145612Z Unpacking fonts-freefont-ttf (20120503-10build1) ...
-2026-10-19T18:24:15.8463256Z Selecting previously unselected package fonts-tlwg-loma-otf.
-2026-10-19T18:24:15.8560975Z Preparing to unpack .../2-fonts-tlwg-loma-otf_1%3a0.7.3-1_all.deb ...
-2026-10-19T18:24:15.8565833Z Unpacking fonts-tlwg-loma-otf (1:0.7.3-1) ...
-2026-10-19T18:24:15.8670470Z Selecting previously unselected package fonts-unifont.
-2026-10-19T18:24:15.8765747Z Preparing to unpack .../3-fonts-unifont_1%3a14.0.01-1_all.deb ...
-2026-10-19T18:24:15.8770424Z Unpacking fonts-unifont (1:14.0.01-1) ...
-2026-10-19T18:24:15.9944261Z Selecting previously unselected package fonts-wqy-zenhei.
-2026-10-19T18:24:16.0041076Z Preparing to unpack .../4-fonts-wqy-zenhei_0.9.45-8_all.deb ...
-2026-10-19T18:24:16.0096939Z Unpacking fonts-wqy-zenhei (0.9.45-8) ...
-2026-10-19T18:24:16.4472186Z Selecting previously unselected package xfonts-encodings.
-2026-10-19T18:24:16.4573392Z Preparing to unpack .../5-xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb ...
-2026-10-19T18:24:16.4578366Z Unpacking xfonts-encodings (1:1.0.5-0ubuntu2) ...
-2026-10-19T18:24:16.4729105Z Selecting previously unselected package xfonts-utils.
-2026-10-19T18:24:16.4832073Z Preparing to unpack .../6-xfonts-utils_1%3a7.7+6build2_amd64.deb ...
-2026-10-19T18:24:16.4837728Z Unpacking xfonts-utils (1:7.7+6build2) ...
-2026-10-19T18:24:16.5029200Z Selecting previously unselected package xfonts-cyrillic.
-2026-10-19T18:24:16.5128376Z Preparing to unpack .../7-xfonts-cyrillic_1%3a1.0.5_all.deb ...
-2026-10-19T18:24:16.5134244Z Unpacking xfonts-cyrillic (1:1.0.5) ...
-2026-10-19T18:24:16.5447609Z Selecting previously unselected package xfonts-scalable.
-2026-10-19T18:24:16.5548234Z Preparing to unpack .../8-xfonts-scalable_1%3a1.0.3-1.2ubuntu1_all.deb ...
-2026-10-19T18:24:16.5554747Z Unpacking xfonts-scalable (1:1.0.3-1.2ubuntu1) ...
-2026-10-19T18:24:16.5840902Z Setting up fonts-wqy-zenhei (0.9.45-8) ...
-2026-10-19T18:24:16.5908729Z Setting up fonts-freefont-ttf (20120503-10build1) ...
-2026-10-19T18:24:16.5921681Z Setting up fonts-tlwg-loma-otf (1:0.7.3-1) ...
-2026-10-19T18:24:16.5935250Z Setting up xfonts-encodings (1:1.0.5-0ubuntu2) ...
-2026-10-19T18:24:16.5947118Z Setting up fonts-ipafont-gothic (00303-21ubuntu1) ...
-2026-10-19T18:24:16.5989049Z update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japanese-gothic.ttf) in auto mode
-2026-10-19T18:24:16.5997868Z Setting up fonts-unifont (1:14.0.01-1) ...
-2026-10-19T18:24:16.6013190Z Setting up xfonts-utils (1:7.7+6build2) ...
-2026-10-19T18:24:16.6042575Z Setting up xfonts-cyrillic (1:1.0.5) ...
-2026-10-19T18:24:16.6520053Z Setting up xfonts-scalable (1:1.0.3-1.2ubuntu1) ...
-2026-10-19T18:24:16.6654573Z Processing triggers for man-db (2.10.2-1) ...
-2026-10-19T18:24:16.6666212Z Not building database; man-db/auto-update is not 'true'.
-2026-10-19T18:24:16.6675112Z Processing triggers for fontconfig (2.13.1-4.2ubuntu5) ...
-2026-10-19T18:24:17.2242764Z 
-2026-10-19T18:24:17.2243580Z Running kernel seems to be up-to-date.
-2026-10-19T18:24:17.2243945Z 
-2026-10-19T18:24:17.2244082Z No services need to be restarted.
-2026-10-19T18:24:17.2244219Z 
-2026-10-19T18:24:17.2244304Z No containers need to be restarted.
-2026-10-19T18:24:17.2244410Z 
-2026-10-19T18:24:17.2244510Z No user sessions are running outdated binaries.
-2026-10-19T18:24:17.2244675Z 
-2026-10-19T18:24:17.2244843Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
-2026-10-19T18:24:18.2837950Z Downloading Chrome for Testing 156.0.8078.4 (playwright chromium v1248) from https://cdn.playwright.dev/builds/cft/156.0.8078.4/linux64/chrome-linux64.zip
-2026-10-19T18:24:18.6126850Z |                                                                                |   0% of 191.1 MiB
-2026-10-19T18:24:18.8927065Z |■■■■■■■■                                                                        |  10% of 191.1 MiB
-2026-10-19T18:24:19.0119658Z |■■■■■■■■■■■■■■■■                                                                |  20% of 191.1 MiB
-2026-10-19T18:24:19.1397154Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 191.1 MiB
-2026-10-19T18:24:19.2508145Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 191.1 MiB
-2026-10-19T18:24:19.3826346Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 191.1 MiB
-2026-10-19T18:24:19.4944213Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 191.1 MiB
-2026-10-19T18:24:19.6121878Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 191.1 MiB
-2026-10-19T18:24:19.7381390Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 191.1 MiB
-2026-10-19T18:24:19.8586440Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 191.1 MiB
-2026-10-19T18:24:19.9792795Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 191.1 MiB
-2026-10-19T18:24:21.9301713Z Chrome for Testing 156.0.8078.4 (playwright chromium v1248) downloaded to /home/runner/.cache/ms-playwright/chromium-1248
-2026-10-19T18:24:21.9305239Z Downloading FFmpeg (playwright ffmpeg v1013) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1013/ffmpeg-linux.zip
-2026-10-19T18:24:22.2355431Z |                                                                                |   0% of 2.2 MiB
-2026-10-19T18:24:22.2592940Z |■■■■■■■■                                                                        |  10% of 2.2 MiB
-2026-10-19T18:24:22.2699259Z |■■■■■■■■■■■■■■■■                                                                |  20% of 2.2 MiB
-2026-10-19T18:24:22.2773091Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.2 MiB
-2026-10-19T18:24:22.2799542Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.2 MiB
-2026-10-19T18:24:22.2818871Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.2 MiB
-2026-10-19T18:24:22.2879798Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.2 MiB
-2026-10-19T18:24:22.2897530Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.2 MiB
-2026-10-19T18:24:22.2909388Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.2 MiB
-2026-10-19T18:24:22.2922760Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.2 MiB
-2026-10-19T18:24:22.2932430Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.2 MiB
-2026-10-19T18:24:22.3258780Z FFmpeg (playwright ffmpeg v1013) downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1013
-2026-10-19T18:24:22.3260217Z Downloading Chrome Headless Shell 156.0.8078.4 (playwright chromium-headless-shell v1248) from https://cdn.playwright.dev/builds/cft/156.0.8078.4/linux64/chrome-headless-shell-linux64.zip
-2026-10-19T18:24:22.6089897Z |                                                                                |   0% of 120 MiB
-2026-10-19T18:24:22.7886415Z |■■■■■■■■                                                                        |  10% of 120 MiB
-2026-10-19T18:24:22.8482690Z |■■■■■■■■■■■■■■■■                                                                |  20% of 120 MiB
-2026-10-19T18:24:22.9001887Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 120 MiB
-2026-10-19T18:24:22.9612705Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 120 MiB
-2026-10-19T18:24:23.0155827Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 120 MiB
-2026-10-19T18:24:23.0664145Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 120 MiB
-2026-10-19T18:24:23.1252891Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 120 MiB
-2026-10-19T18:24:23.1885955Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 120 MiB
-2026-10-19T18:24:23.2397136Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 120 MiB
-2026-10-19T18:24:23.2907369Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 120 MiB
-2026-10-19T18:24:24.7393518Z Chrome Headless Shell 156.0.8078.4 (playwright chromium-headless-shell v1248) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1248
-2026-10-19T18:24:24.8151495Z 
-2026-10-19T18:24:24.8152181Z > cars-dealership-ui@1.0.0 test:e2e
-2026-10-19T18:24:24.8152543Z > playwright test
-2026-10-19T18:24:24.8153011Z 
-2026-10-19T18:24:25.2794491Z 
-2026-10-19T18:24:25.2795101Z Running 3 tests using 1 worker
-2026-10-19T18:24:30.0725169Z ···
-2026-10-19T18:24:30.0726823Z   3 passed (4.8s)
-2026-10-19T18:24:30.0875757Z ##[group]Run actions/upload-artifact@v4
-2026-10-19T18:24:30.0875927Z with:
-2026-10-19T18:24:30.0876047Z   name: capstone-evidence
-2026-10-19T18:24:30.0876202Z   path: evidence/
-server/frontend/test-results/
+Job: test
+Job ID: 118238433933
+Conclusion: success
+Duration: 101 seconds
+  Set up job: success
+  Initialize containers: success
+  Run actions/checkout@v4: success
+  Run actions/setup-python@v5: success
+  Run actions/setup-node@v4: success
+  Install Python dependencies: success
+  Django checks and acceptance tests: success
+  Build React interface: success
+  Test Node service with MongoDB: success
+  Test sentiment service: success
+  Browser workflow tests: success
+  Upload evidence: success
+  Post Run actions/setup-node@v4: success
+  Post Run actions/setup-python@v5: success
+  Post Run actions/checkout@v4: success
+  Stop containers: success
+  Complete job: success
 
-2026-10-19T18:24:30.0876371Z   if-no-files-found: warn
-2026-10-19T18:24:30.0876504Z   compression-level: 6
-2026-10-19T18:24:30.0876623Z   overwrite: false
-2026-10-19T18:24:30.0876764Z   include-hidden-files: false
-2026-10-19T18:24:30.0876893Z env:
-2026-10-19T18:24:30.0877037Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:30.0877274Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
-2026-10-19T18:24:30.0877503Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:30.0877709Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:30.0877918Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
-2026-10-19T18:24:30.0878166Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
-2026-10-19T18:24:30.0878343Z ##[endgroup]
-2026-10-19T18:24:30.1904644Z (node:3649) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-2026-10-19T18:24:30.1905101Z (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-10-19T18:24:30.1966398Z Multiple search paths detected. Calculating the least common ancestor of all paths
-2026-10-19T18:24:30.1968938Z The least common ancestor is /home/runner/work/cars-dealership-capstone/cars-dealership-capstone. This will be the root directory of the artifact
-2026-10-19T18:24:30.1969645Z With the provided path, there will be 20 files uploaded
-2026-10-19T18:24:30.1972800Z Artifact name is valid!
-2026-10-19T18:24:30.1973136Z Root directory input is valid!
-2026-10-19T18:24:30.4414477Z Beginning upload of artifact content to blob storage
-2026-10-19T18:24:30.5221124Z (node:3649) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
-2026-10-19T18:24:30.9404162Z Uploaded bytes 2716691
-2026-10-19T18:24:30.9833010Z Finished uploading artifact content to blob storage!
-2026-10-19T18:24:30.9833861Z SHA256 digest of uploaded artifact zip is 3d2c8c9aa1d6d0a82fe0ced5db32a5a493572fe798b307a0ce249b4e21eab1bb
-2026-10-19T18:24:30.9834924Z Finalizing artifact upload
-2026-10-19T18:24:31.2141683Z Artifact capstone-evidence.zip successfully finalized. Artifact ID 12212077713
-2026-10-19T18:24:31.2142412Z Artifact capstone-evidence has been successfully uploaded! Final size is 2716691 bytes. Artifact ID is 12212077713
-2026-10-19T18:24:31.2147002Z Artifact download URL: https://github.com/Tenma24/cars-dealership-capstone/actions/runs/39302067786/artifacts/12212077713
-2026-10-19T18:24:31.2261670Z Post job cleanup.
-2026-10-19T18:24:31.3002340Z (node:3661) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-2026-10-19T18:24:31.3002801Z (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-10-19T18:24:31.3090724Z Post job cleanup.
-2026-10-19T18:24:31.3846258Z (node:3669) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
-2026-10-19T18:24:31.3846747Z (Use `node --trace-deprecation ...` to show where the warning was created)
-2026-10-19T18:24:31.3963554Z Post job cleanup.
-2026-10-19T18:24:31.4585398Z [command]/usr/bin/git version
-2026-10-19T18:24:31.4611802Z git version 2.55.0
-2026-10-19T18:24:31.4639629Z Temporarily overriding HOME='/home/runner/work/_temp/ee7fea1f-1ee3-4c0d-8b62-6bfa5045b5cf' before making global git config changes
-2026-10-19T18:24:31.4640522Z Adding repository directory to the temporary git global config as a safe directory
-2026-10-19T18:24:31.4643634Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cars-dealership-capstone/cars-dealership-capstone
-2026-10-19T18:24:31.4680792Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
-2026-10-19T18:24:31.4705212Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
-2026-10-19T18:24:31.4831877Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
-2026-10-19T18:24:31.4848587Z http.https://github.com/.extraheader
-2026-10-19T18:24:31.4856882Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
-2026-10-19T18:24:31.4928078Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
-2026-10-19T18:24:31.5184948Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
-2026-10-19T18:24:31.5213422Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
-2026-10-19T18:24:31.5456050Z Print service container logs: 4e4bf9b67a6c47478e7a381d413b89e8_mongo8_082e6f
-2026-10-19T18:24:31.5458776Z ##[command]/usr/bin/docker logs --details 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:24:31.5545672Z  {"t":{"$date":"2026-10-19T18:23:33.884+00:00"},"s":"I",  "c":"-",        "id":8991200, "ctx":"main","msg":"Shuffling initializers","attr":{"seed":2247995823}}
-2026-10-19T18:24:31.5547150Z  {"t":{"$date":"2026-10-19T18:23:33.893+00:00"},"s":"I",  "c":"CONTROL",  "id":97374,   "ctx":"main","msg":"Automatically disabling TLS 1.0 and TLS 1.1, to force-enable TLS 1.1 specify --sslDisabledProtocols 'TLS1_0'; to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
-2026-10-19T18:24:31.5548579Z  {"t":{"$date":"2026-10-19T18:23:33.894+00:00"},"s":"I",  "c":"CONTROL",  "id":10500903,"ctx":"main","msg":"Not initializing OpenTelemetry metrics"}
-2026-10-19T18:24:31.5549668Z  {"t":{"$date":"2026-10-19T18:23:33.895+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"main","msg":"Starting thread pool","attr":{"poolName":"AuthorizationRouter","numThreads":0,"minThreads":0,"maxThreads":1000000000}}
-2026-10-19T18:24:31.5551414Z  {"t":{"$date":"2026-10-19T18:23:33.896+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":28},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":28},"outgoing":{"minWireVersion":6,"maxWireVersion":28},"isInternalClient":true}}}
-2026-10-19T18:24:31.5553249Z  {"t":{"$date":"2026-10-19T18:23:33.896+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"main","msg":"Starting thread pool","attr":{"poolName":"ThreadPool1","numThreads":0,"minThreads":0,"maxThreads":1}}
-2026-10-19T18:24:31.5554271Z  {"t":{"$date":"2026-10-19T18:23:33.896+00:00"},"s":"I",  "c":"CONTROL",  "id":9859700, "ctx":"main","msg":"Not initializing OpenTelemetry"}
-2026-10-19T18:24:31.5554985Z  {"t":{"$date":"2026-10-19T18:23:33.896+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
-2026-10-19T18:24:31.5555895Z  {"t":{"$date":"2026-10-19T18:23:33.896+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"main","msg":"Starting thread pool","attr":{"poolName":"ReadWriteConcernDefaults","numThreads":0,"minThreads":0,"maxThreads":1}}
-2026-10-19T18:24:31.5556732Z  {"t":{"$date":"2026-10-19T18:23:33.896+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"2b223778f66b"}}
-2026-10-19T18:24:31.5557911Z  {"t":{"$date":"2026-10-19T18:23:33.897+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"8.3.13","gitVersion":"3b8a5e1f78cf7b94c40a78ad3fe93708cdca8323","openSSLVersion":"OpenSSL 3.0.13 30 Jan 2024","modules":[],"allocator":"tcmalloc-google","environment":{"distmod":"ubuntu2404","distarch":"x86_64","target_arch":"x86_64"}}}}
-2026-10-19T18:24:31.5558812Z  {"t":{"$date":"2026-10-19T18:23:33.897+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"24.04"}}}
-2026-10-19T18:24:31.5559369Z  {"t":{"$date":"2026-10-19T18:23:33.897+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
-2026-10-19T18:24:31.5559980Z  {"t":{"$date":"2026-10-19T18:23:33.897+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"OCSPManagerHTTP","numThreads":0,"minThreads":1,"maxThreads":10}}
-2026-10-19T18:24:31.5560994Z  {"t":{"$date":"2026-10-19T18:23:33.898+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"initandlisten","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set at least one of the related parameters","attr":{"relatedParameters":["tcpFastOpenServer","tcpFastOpenClient","tcpFastOpenQueueSize"]}}
-2026-10-19T18:24:31.5561960Z  {"t":{"$date":"2026-10-19T18:23:33.898+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
-2026-10-19T18:24:31.5564074Z  {"t":{"$date":"2026-10-19T18:23:33.898+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=7482M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,disaggregated_storage:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],prefetch=(available=true,default=false),"}}
-2026-10-19T18:24:31.5566420Z  {"t":{"$date":"2026-10-19T18:23:33.909+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":909777,"thread":"1:0x7fb6276e9f80","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
-2026-10-19T18:24:31.5567711Z  {"t":{"$date":"2026-10-19T18:23:33.923+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":923071,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
-2026-10-19T18:24:31.5568911Z  {"t":{"$date":"2026-10-19T18:23:33.924+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":924605,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
-2026-10-19T18:24:31.5570187Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925649,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
-2026-10-19T18:24:31.5571376Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925775,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to remove all incomplete tables"}}}
-2026-10-19T18:24:31.5572599Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925804,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
-2026-10-19T18:24:31.5573985Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925819,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
-2026-10-19T18:24:31.5575230Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925834,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 0 milliseconds"}}}
-2026-10-19T18:24:31.5576494Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925852,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":35,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
-2026-10-19T18:24:31.5577710Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925863,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":35,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
-2026-10-19T18:24:31.5579188Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925886,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
-2026-10-19T18:24:31.5580735Z  {"t":{"$date":"2026-10-19T18:23:33.925+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":925901,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":35,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
-2026-10-19T18:24:31.5582336Z  {"t":{"$date":"2026-10-19T18:23:33.927+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":927394,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
-2026-10-19T18:24:31.5583519Z  {"t":{"$date":"2026-10-19T18:23:33.928+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":928665,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
-2026-10-19T18:24:31.5584830Z  {"t":{"$date":"2026-10-19T18:23:33.928+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":928687,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
-2026-10-19T18:24:31.5585721Z  {"t":{"$date":"2026-10-19T18:23:33.928+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":30}}
-2026-10-19T18:24:31.5586259Z  {"t":{"$date":"2026-10-19T18:23:33.928+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
-2026-10-19T18:24:31.5586854Z  {"t":{"$date":"2026-10-19T18:23:33.928+00:00"},"s":"I",  "c":"STORAGE",  "id":9086700, "ctx":"initandlisten","msg":"WiredTiger session cache max value has been set","attr":{"sessionCacheMax":16500}}
-2026-10-19T18:24:31.5588534Z  {"t":{"$date":"2026-10-19T18:23:33.929+00:00"},"s":"I",  "c":"STORAGE",  "id":10158000,"ctx":"initandlisten","msg":"Opening spill WiredTiger","attr":{"config":"create,cache_size=399M,session_max=1024,eviction=(threads_min=1,threads_max=1),eviction_dirty_target=19MB,eviction_dirty_trigger=319MB,eviction_updates_trigger=319MB,config_base=false,statistics=(fast),builtin_extension_config=(zstd=(compression_level=-7)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,disaggregated_storage:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
-2026-10-19T18:24:31.5590511Z  {"t":{"$date":"2026-10-19T18:23:33.930+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":930636,"thread":"1:0x7fb6276e9f80","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
-2026-10-19T18:24:31.5591721Z  {"t":{"$date":"2026-10-19T18:23:33.931+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":931538,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
-2026-10-19T18:24:31.5592912Z  {"t":{"$date":"2026-10-19T18:23:33.932+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":932785,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
-2026-10-19T18:24:31.5594182Z  {"t":{"$date":"2026-10-19T18:23:33.932+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":932894,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
-2026-10-19T18:24:31.5595359Z  {"t":{"$date":"2026-10-19T18:23:33.932+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":932939,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to remove all incomplete tables"}}}
-2026-10-19T18:24:31.5596567Z  {"t":{"$date":"2026-10-19T18:23:33.932+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":932959,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
-2026-10-19T18:24:31.5597796Z  {"t":{"$date":"2026-10-19T18:23:33.932+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":932972,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
-2026-10-19T18:24:31.5599042Z  {"t":{"$date":"2026-10-19T18:23:33.932+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":932986,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 0 milliseconds"}}}
-2026-10-19T18:24:31.5600383Z  {"t":{"$date":"2026-10-19T18:23:33.933+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":933016,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":35,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
-2026-10-19T18:24:31.5601637Z  {"t":{"$date":"2026-10-19T18:23:33.933+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":933028,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":35,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
-2026-10-19T18:24:31.5603007Z  {"t":{"$date":"2026-10-19T18:23:33.933+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":933048,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
-2026-10-19T18:24:31.5604662Z  {"t":{"$date":"2026-10-19T18:23:33.933+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":933060,"thread":"1:0x7fb6276e9f80","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":35,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
-2026-10-19T18:24:31.5606011Z  {"t":{"$date":"2026-10-19T18:23:33.935+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":935616,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
-2026-10-19T18:24:31.5607201Z  {"t":{"$date":"2026-10-19T18:23:33.935+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":935993,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
-2026-10-19T18:24:31.5608454Z  {"t":{"$date":"2026-10-19T18:23:33.936+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1792434213,"ts_usec":936008,"thread":"1:0x7fb6276e9f80","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":34,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
-2026-10-19T18:24:31.5609304Z  {"t":{"$date":"2026-10-19T18:23:33.936+00:00"},"s":"I",  "c":"STORAGE",  "id":10158001,"ctx":"initandlisten","msg":"Spill WiredTiger opened","attr":{"durationMillis":7}}
-2026-10-19T18:24:31.5609745Z  {"t":{"$date":"2026-10-19T18:23:33.936+00:00"},"s":"I",  "c":"STORAGE",  "id":11503101,"ctx":"initandlisten","msg":"Loading MDB catalog"}
-2026-10-19T18:24:31.5610174Z  {"t":{"$date":"2026-10-19T18:23:33.936+00:00"},"s":"I",  "c":"STORAGE",  "id":11503104,"ctx":"initandlisten","msg":"Creating MDB catalog as it did not already exist"}
-2026-10-19T18:24:31.5610973Z  {"t":{"$date":"2026-10-19T18:23:33.936+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"initandlisten","msg":"create table","attr":{"uri":"table:_mdb_catalog","config":"type=file,memory_page_max=10M,split_pct=90,leaf_value_max=64MB,checksum=on,block_compressor=snappy,,,,exclusive=true,key_format=q,value_format=u,app_metadata=(formatVersion=1),log=(enabled=true)"}}
-2026-10-19T18:24:31.5611775Z  {"t":{"$date":"2026-10-19T18:23:33.937+00:00"},"s":"I",  "c":"STORAGE",  "id":9529901, "ctx":"initandlisten","msg":"Initializing durable catalog","attr":{"numRecords":0}}
-2026-10-19T18:24:31.5612237Z  {"t":{"$date":"2026-10-19T18:23:33.937+00:00"},"s":"I",  "c":"STORAGE",  "id":9529902, "ctx":"initandlisten","msg":"Retrieving all idents from storage engine"}
-2026-10-19T18:24:31.5612789Z  {"t":{"$date":"2026-10-19T18:23:33.937+00:00"},"s":"I",  "c":"STORAGE",  "id":9529903, "ctx":"initandlisten","msg":"Initializing all collections in durable catalog","attr":{"numEntries":0}}
-2026-10-19T18:24:31.5613272Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"I",  "c":"STORAGE",  "id":11503103,"ctx":"initandlisten","msg":"Initializing collection catalog"}
-2026-10-19T18:24:31.5614033Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
-2026-10-19T18:24:31.5615064Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/enabled","currentValue":"never","desiredValue":"always"},"tags":["startupWarnings"]}
-2026-10-19T18:24:31.5616320Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/defrag","currentValue":"madvise","desiredValue":"defer+madvise"},"tags":["startupWarnings"]}
-2026-10-19T18:24:31.5617405Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"W",  "c":"CONTROL",  "id":8640302, "ctx":"initandlisten","msg":"We suggest setting the contents of sysfsFile to 0.","attr":{"sysfsFile":"/sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none","currentValue":511},"tags":["startupWarnings"]}
-2026-10-19T18:24:31.5618295Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"W",  "c":"CONTROL",  "id":8386700, "ctx":"initandlisten","msg":"We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.","attr":{"sysfsFile":"/proc/sys/vm/swappiness","currentValue":60},"tags":["startupWarnings"]}
-2026-10-19T18:24:31.5619382Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"admin.system.version","uuidDisposition":"provided","uuid":{"uuid":{"$uuid":"e99d798a-776a-4434-b5ab-19646932aba5"}},"options":{"uuid":{"$uuid":"e99d798a-776a-4434-b5ab-19646932aba5"}},"recordIdsReplicated disposition":"computed","recordIdsReplicated":false}}
-2026-10-19T18:24:31.5620711Z  {"t":{"$date":"2026-10-19T18:23:33.938+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"initandlisten","msg":"create table","attr":{"uri":"table:collection-a6ef870e-57b9-4a07-8e7d-93efb2f9fd34","config":"type=file,memory_page_max=10M,split_pct=90,leaf_value_max=64MB,checksum=on,block_compressor=snappy,,,,exclusive=true,key_format=q,value_format=u,app_metadata=(formatVersion=1),log=(enabled=true)"}}
-2026-10-19T18:24:31.5622036Z  {"t":{"$date":"2026-10-19T18:23:33.939+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"initandlisten","msg":"create table","attr":{"uri":"table:index-13a9bb25-665b-4554-9544-2c47a5bda8ac","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5623399Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"e99d798a-776a-4434-b5ab-19646932aba5"}},"namespace":"admin.system.version","index":"_id_","ident":"index-13a9bb25-665b-4554-9544-2c47a5bda8ac","collectionIdent":"collection-a6ef870e-57b9-4a07-8e7d-93efb2f9fd34","commitTimestamp":null}}
-2026-10-19T18:24:31.5624531Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"REPL",     "id":20459,   "ctx":"initandlisten","msg":"Setting featureCompatibilityVersion","attr":{"newVersion":"8.3"}}
-2026-10-19T18:24:31.5625132Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.3","context":"setFCV"}}
-2026-10-19T18:24:31.5626411Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":28},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":28},"outgoing":{"minWireVersion":6,"maxWireVersion":28},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":28},"incomingInternalClient":{"minWireVersion":28,"maxWireVersion":28},"outgoing":{"minWireVersion":28,"maxWireVersion":28},"isInternalClient":true}}}
-2026-10-19T18:24:31.5628284Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":28},"incomingInternalClient":{"minWireVersion":28,"maxWireVersion":28},"outgoing":{"minWireVersion":28,"maxWireVersion":28},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":28},"incomingInternalClient":{"minWireVersion":28,"maxWireVersion":28},"outgoing":{"minWireVersion":28,"maxWireVersion":28},"isInternalClient":true}}}
-2026-10-19T18:24:31.5629561Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.3","context":"startup"}}
-2026-10-19T18:24:31.5630101Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
-2026-10-19T18:24:31.5630540Z  {"t":{"$date":"2026-10-19T18:23:33.940+00:00"},"s":"I",  "c":"STORAGE",  "id":10682200,"ctx":"initandlisten","msg":"Dropping spill idents","attr":{"numIdents":0}}
-2026-10-19T18:24:31.5631018Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
-2026-10-19T18:24:31.5631485Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
-2026-10-19T18:24:31.5632087Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
-2026-10-19T18:24:31.5632600Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"QUERY",    "id":8972602, "ctx":"initandlisten","msg":"Setting up MozJS engine."}
-2026-10-19T18:24:31.5633141Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"deferred writer pool","numThreads":0,"minThreads":0,"maxThreads":1}}
-2026-10-19T18:24:31.5633884Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"StandaloneThreadPool","numThreads":0,"minThreads":1,"maxThreads":1000000000}}
-2026-10-19T18:24:31.5634606Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"WaitForMajorityServiceReadThreadPool","numThreads":0,"minThreads":0,"maxThreads":2}}
-2026-10-19T18:24:31.5635352Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"WaitForMajorityServiceWriteThreadPool","numThreads":0,"minThreads":0,"maxThreads":2}}
-2026-10-19T18:24:31.5636363Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"local.startup_log","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"97d4880b-96c1-44ea-a62b-372a08fdfc8f"}},"options":{"capped":true,"size":10485760},"recordIdsReplicated disposition":"computed","recordIdsReplicated":false}}
-2026-10-19T18:24:31.5637598Z  {"t":{"$date":"2026-10-19T18:23:33.941+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"initandlisten","msg":"create table","attr":{"uri":"table:collection-b263a88a-84f2-47c9-8ad6-61a1e7ea9ae0","config":"type=file,memory_page_max=10M,split_pct=90,leaf_value_max=64MB,checksum=on,block_compressor=snappy,,,,exclusive=true,key_format=q,value_format=u,app_metadata=(formatVersion=1),log=(enabled=true)"}}
-2026-10-19T18:24:31.5638830Z  {"t":{"$date":"2026-10-19T18:23:33.942+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"initandlisten","msg":"create table","attr":{"uri":"table:index-a1d9cc3c-a7c3-4770-8744-5694005db931","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5640123Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"97d4880b-96c1-44ea-a62b-372a08fdfc8f"}},"namespace":"local.startup_log","index":"_id_","ident":"index-a1d9cc3c-a7c3-4770-8744-5694005db931","collectionIdent":"collection-b263a88a-84f2-47c9-8ad6-61a1e7ea9ae0","commitTimestamp":null}}
-2026-10-19T18:24:31.5641143Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
-2026-10-19T18:24:31.5641825Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"TTLMonitorMetadataRefresh","numThreads":0,"minThreads":0,"maxThreads":5}}
-2026-10-19T18:24:31.5642372Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
-2026-10-19T18:24:31.5642784Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"STORAGE",  "id":7333401, "ctx":"initandlisten","msg":"Starting the DiskSpaceMonitor"}
-2026-10-19T18:24:31.5643347Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"EXECUTOR", "id":11280000,"ctx":"initandlisten","msg":"Starting thread pool","attr":{"poolName":"StatsCache","numThreads":0,"minThreads":0,"maxThreads":2}}
-2026-10-19T18:24:31.5643933Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0:27017"}}
-2026-10-19T18:24:31.5644390Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
-2026-10-19T18:24:31.5644864Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
-2026-10-19T18:24:31.5646443Z  {"t":{"$date":"2026-10-19T18:23:33.944+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"createLockFileMillis":1,"setUpPeriodicRunnerMillis":0,"setUpOCSPMillis":0,"setUpTransportLayerMillis":1,"initSyncCrashRecoveryMillis":0,"getStorageEngineMetadataMillis":0,"createStorageEngineMillis":39,"writeNewMetadataMillis":0,"initializeFCVForIndexMillis":0,"dropAbandonedIdentsMillis":0,"standaloneClusterParamsMillis":1,"userAndRolesGraphMillis":0,"waitForMajorityServiceMillis":0,"startUpReplCoordMillis":0,"recoverChangeStreamMillis":0,"logStartupOptionsMillis":0,"startUpTransportLayerMillis":0,"initAndListenTotalMillis":48}}}}
-2026-10-19T18:24:31.5648224Z  {"t":{"$date":"2026-10-19T18:23:33.945+00:00"},"s":"I",  "c":"CONTROL",  "id":20712,   "ctx":"LogicalSessionCacheReap","msg":"Sessions collection is not set up; waiting until next sessions reap interval","attr":{"error":"NamespaceNotFound: config.system.sessions does not exist"}}
-2026-10-19T18:24:31.5649252Z  {"t":{"$date":"2026-10-19T18:23:33.945+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"LogicalSessionCacheRefresh","msg":"createCollection","attr":{"namespace":"config.system.sessions","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"47cc6f8d-39a5-48e9-a1e5-907973cfbba1"}},"options":{},"recordIdsReplicated disposition":"computed","recordIdsReplicated":false}}
-2026-10-19T18:24:31.5650508Z  {"t":{"$date":"2026-10-19T18:23:33.945+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"LogicalSessionCacheRefresh","msg":"create table","attr":{"uri":"table:collection-60167ca7-e331-47f9-9cdf-f70c2d0ecd6b","config":"type=file,memory_page_max=10M,split_pct=90,leaf_value_max=64MB,checksum=on,block_compressor=snappy,,,,exclusive=true,key_format=q,value_format=u,app_metadata=(formatVersion=1),log=(enabled=true)"}}
-2026-10-19T18:24:31.5651803Z  {"t":{"$date":"2026-10-19T18:23:33.947+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"LogicalSessionCacheRefresh","msg":"create table","attr":{"uri":"table:index-05bb37eb-0fb7-4598-b692-77f6190b44f7","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5653048Z  {"t":{"$date":"2026-10-19T18:23:33.948+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"LogicalSessionCacheRefresh","msg":"create table","attr":{"uri":"table:index-468eb7c5-4a41-4665-977c-64b9d85d5508","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5654470Z  {"t":{"$date":"2026-10-19T18:23:33.949+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"47cc6f8d-39a5-48e9-a1e5-907973cfbba1"}},"namespace":"config.system.sessions","index":"_id_","ident":"index-05bb37eb-0fb7-4598-b692-77f6190b44f7","collectionIdent":"collection-60167ca7-e331-47f9-9cdf-f70c2d0ecd6b","commitTimestamp":null}}
-2026-10-19T18:24:31.5655968Z  {"t":{"$date":"2026-10-19T18:23:33.949+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"47cc6f8d-39a5-48e9-a1e5-907973cfbba1"}},"namespace":"config.system.sessions","index":"lsidTTLIndex","ident":"index-468eb7c5-4a41-4665-977c-64b9d85d5508","collectionIdent":"collection-60167ca7-e331-47f9-9cdf-f70c2d0ecd6b","commitTimestamp":null}}
-2026-10-19T18:24:31.5657257Z  {"t":{"$date":"2026-10-19T18:23:44.020+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53884","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"17394485-a9cc-48d5-ad44-9ba540d6b906"}},"connectionId":1,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5658486Z  {"t":{"$date":"2026-10-19T18:23:44.022+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn1","msg":"client metadata","attr":{"remote":"127.0.0.1:53884","client":"conn1","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5659855Z  {"t":{"$date":"2026-10-19T18:23:44.022+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn1","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:53884","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5661036Z  {"t":{"$date":"2026-10-19T18:23:44.024+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53886","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"afad2333-5531-49f6-98f6-bd54d8fe5ec4"}},"connectionId":2,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5662260Z  {"t":{"$date":"2026-10-19T18:23:44.025+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn2","msg":"client metadata","attr":{"remote":"127.0.0.1:53886","client":"conn2","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5663581Z  {"t":{"$date":"2026-10-19T18:23:44.025+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn2","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:53886","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5664614Z  {"t":{"$date":"2026-10-19T18:23:44.033+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn2","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":8}}
-2026-10-19T18:24:31.5665514Z  {"t":{"$date":"2026-10-19T18:23:44.087+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53898","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"f8fa56f3-7b5c-4571-9703-ddb80a8bba3f"}},"connectionId":3,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5666626Z  {"t":{"$date":"2026-10-19T18:23:44.087+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53914","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"3b3cd7aa-2463-4251-a52c-d547a5c7eb38"}},"connectionId":4,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5667852Z  {"t":{"$date":"2026-10-19T18:23:44.089+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn3","msg":"client metadata","attr":{"remote":"127.0.0.1:53898","client":"conn3","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5669167Z  {"t":{"$date":"2026-10-19T18:23:44.089+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn3","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:53898","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5670484Z  {"t":{"$date":"2026-10-19T18:23:44.089+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn4","msg":"client metadata","attr":{"remote":"127.0.0.1:53914","client":"conn4","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5671831Z  {"t":{"$date":"2026-10-19T18:23:44.089+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn4","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:53914","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5673015Z  {"t":{"$date":"2026-10-19T18:23:44.091+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53930","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"f5550b5e-70f9-48b0-aeb1-8e9caf94f671"}},"connectionId":5,"local":"127.0.0.1:27017","connectionCount":5}}
-2026-10-19T18:24:31.5673936Z  {"t":{"$date":"2026-10-19T18:23:44.092+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn4","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5674934Z  {"t":{"$date":"2026-10-19T18:23:44.093+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn5","msg":"client metadata","attr":{"remote":"127.0.0.1:53930","client":"conn5","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5676252Z  {"t":{"$date":"2026-10-19T18:23:44.093+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn5","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:53930","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5677244Z  {"t":{"$date":"2026-10-19T18:23:44.095+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn5","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5678099Z  {"t":{"$date":"2026-10-19T18:23:44.098+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn1","msg":"Connection ended","attr":{"remote":"127.0.0.1:53884","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"17394485-a9cc-48d5-ad44-9ba540d6b906"}},"connectionId":1,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5679152Z  {"t":{"$date":"2026-10-19T18:23:44.098+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn5","msg":"Connection ended","attr":{"remote":"127.0.0.1:53930","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"f5550b5e-70f9-48b0-aeb1-8e9caf94f671"}},"connectionId":5,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5680208Z  {"t":{"$date":"2026-10-19T18:23:44.098+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn4","msg":"Connection ended","attr":{"remote":"127.0.0.1:53914","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"3b3cd7aa-2463-4251-a52c-d547a5c7eb38"}},"connectionId":4,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5681254Z  {"t":{"$date":"2026-10-19T18:23:44.098+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn3","msg":"Connection ended","attr":{"remote":"127.0.0.1:53898","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"f8fa56f3-7b5c-4571-9703-ddb80a8bba3f"}},"connectionId":3,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5682339Z  {"t":{"$date":"2026-10-19T18:23:44.098+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn2","msg":"Connection ended","attr":{"remote":"127.0.0.1:53886","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"afad2333-5531-49f6-98f6-bd54d8fe5ec4"}},"connectionId":2,"local":"127.0.0.1:27017","connectionCount":0}}
-2026-10-19T18:24:31.5683404Z  {"t":{"$date":"2026-10-19T18:23:54.258+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46548","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"ac915906-0e7c-4fa2-95b9-f2eccfc09b98"}},"connectionId":6,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5684696Z  {"t":{"$date":"2026-10-19T18:23:54.259+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn6","msg":"client metadata","attr":{"remote":"127.0.0.1:46548","client":"conn6","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5686016Z  {"t":{"$date":"2026-10-19T18:23:54.260+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn6","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46548","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5687196Z  {"t":{"$date":"2026-10-19T18:23:54.262+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46554","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"8b7c4358-d256-4888-868c-eeb7ee023e93"}},"connectionId":7,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5688450Z  {"t":{"$date":"2026-10-19T18:23:54.262+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn7","msg":"client metadata","attr":{"remote":"127.0.0.1:46554","client":"conn7","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5689766Z  {"t":{"$date":"2026-10-19T18:23:54.262+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn7","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46554","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5690735Z  {"t":{"$date":"2026-10-19T18:23:54.269+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn7","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":6}}
-2026-10-19T18:24:31.5691606Z  {"t":{"$date":"2026-10-19T18:23:54.319+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46570","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"965ef8ee-efa7-4f4d-ab07-4e223773ac77"}},"connectionId":8,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5692691Z  {"t":{"$date":"2026-10-19T18:23:54.319+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46572","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"326ed48f-4389-4ebf-b84e-553c49569d39"}},"connectionId":9,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5694000Z  {"t":{"$date":"2026-10-19T18:23:54.321+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn8","msg":"client metadata","attr":{"remote":"127.0.0.1:46570","client":"conn8","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5695318Z  {"t":{"$date":"2026-10-19T18:23:54.321+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn8","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46570","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5696631Z  {"t":{"$date":"2026-10-19T18:23:54.321+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn9","msg":"client metadata","attr":{"remote":"127.0.0.1:46572","client":"conn9","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5697936Z  {"t":{"$date":"2026-10-19T18:23:54.321+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn9","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46572","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5699115Z  {"t":{"$date":"2026-10-19T18:23:54.323+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46588","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"cc12ce16-80d9-44fc-9b7b-b416eb3cfcc2"}},"connectionId":10,"local":"127.0.0.1:27017","connectionCount":5}}
-2026-10-19T18:24:31.5700013Z  {"t":{"$date":"2026-10-19T18:23:54.324+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn9","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5701018Z  {"t":{"$date":"2026-10-19T18:23:54.324+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn10","msg":"client metadata","attr":{"remote":"127.0.0.1:46588","client":"conn10","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5702339Z  {"t":{"$date":"2026-10-19T18:23:54.324+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn10","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46588","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5703300Z  {"t":{"$date":"2026-10-19T18:23:54.327+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn10","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5704228Z  {"t":{"$date":"2026-10-19T18:23:54.329+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn6","msg":"Connection ended","attr":{"remote":"127.0.0.1:46548","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"ac915906-0e7c-4fa2-95b9-f2eccfc09b98"}},"connectionId":6,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5705279Z  {"t":{"$date":"2026-10-19T18:23:54.329+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn10","msg":"Connection ended","attr":{"remote":"127.0.0.1:46588","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"cc12ce16-80d9-44fc-9b7b-b416eb3cfcc2"}},"connectionId":10,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5706334Z  {"t":{"$date":"2026-10-19T18:23:54.329+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn9","msg":"Connection ended","attr":{"remote":"127.0.0.1:46572","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"326ed48f-4389-4ebf-b84e-553c49569d39"}},"connectionId":9,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5707402Z  {"t":{"$date":"2026-10-19T18:23:54.329+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn8","msg":"Connection ended","attr":{"remote":"127.0.0.1:46570","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"965ef8ee-efa7-4f4d-ab07-4e223773ac77"}},"connectionId":8,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5708445Z  {"t":{"$date":"2026-10-19T18:23:54.329+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn7","msg":"Connection ended","attr":{"remote":"127.0.0.1:46554","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"8b7c4358-d256-4888-868c-eeb7ee023e93"}},"connectionId":7,"local":"127.0.0.1:27017","connectionCount":0}}
-2026-10-19T18:24:31.5709504Z  {"t":{"$date":"2026-10-19T18:24:04.505+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:45218","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"cf3db514-d78b-438b-9729-796af3d1edfa"}},"connectionId":11,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5710760Z  {"t":{"$date":"2026-10-19T18:24:04.506+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn11","msg":"client metadata","attr":{"remote":"127.0.0.1:45218","client":"conn11","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5712080Z  {"t":{"$date":"2026-10-19T18:24:04.506+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn11","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:45218","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5713259Z  {"t":{"$date":"2026-10-19T18:24:04.508+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:45228","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"b3430363-830f-43cc-8a2b-85fb965c4bef"}},"connectionId":12,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5714517Z  {"t":{"$date":"2026-10-19T18:24:04.508+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn12","msg":"client metadata","attr":{"remote":"127.0.0.1:45228","client":"conn12","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5715867Z  {"t":{"$date":"2026-10-19T18:24:04.509+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn12","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:45228","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5716834Z  {"t":{"$date":"2026-10-19T18:24:04.515+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn12","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":6}}
-2026-10-19T18:24:31.5717693Z  {"t":{"$date":"2026-10-19T18:24:04.568+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:45234","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"fa450306-776e-4634-937e-38ec96f4196d"}},"connectionId":13,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5718766Z  {"t":{"$date":"2026-10-19T18:24:04.568+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:45242","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"abf4128e-22f4-4932-87e3-84cd0d14d621"}},"connectionId":14,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5719981Z  {"t":{"$date":"2026-10-19T18:24:04.570+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn13","msg":"client metadata","attr":{"remote":"127.0.0.1:45234","client":"conn13","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5721325Z  {"t":{"$date":"2026-10-19T18:24:04.570+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn13","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:45234","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5722636Z  {"t":{"$date":"2026-10-19T18:24:04.571+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn14","msg":"client metadata","attr":{"remote":"127.0.0.1:45242","client":"conn14","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5723987Z  {"t":{"$date":"2026-10-19T18:24:04.571+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn14","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:45242","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5725166Z  {"t":{"$date":"2026-10-19T18:24:04.572+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:45256","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"0d720c95-28ea-4837-b7b1-b28b84e3636b"}},"connectionId":15,"local":"127.0.0.1:27017","connectionCount":5}}
-2026-10-19T18:24:31.5726070Z  {"t":{"$date":"2026-10-19T18:24:04.573+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn14","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5727079Z  {"t":{"$date":"2026-10-19T18:24:04.574+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn15","msg":"client metadata","attr":{"remote":"127.0.0.1:45256","client":"conn15","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5728576Z  {"t":{"$date":"2026-10-19T18:24:04.574+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn15","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:45256","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5729825Z  {"t":{"$date":"2026-10-19T18:24:04.577+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn15","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5730679Z  {"t":{"$date":"2026-10-19T18:24:04.579+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn11","msg":"Connection ended","attr":{"remote":"127.0.0.1:45218","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"cf3db514-d78b-438b-9729-796af3d1edfa"}},"connectionId":11,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5731736Z  {"t":{"$date":"2026-10-19T18:24:04.579+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn15","msg":"Connection ended","attr":{"remote":"127.0.0.1:45256","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"0d720c95-28ea-4837-b7b1-b28b84e3636b"}},"connectionId":15,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5732818Z  {"t":{"$date":"2026-10-19T18:24:04.579+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn14","msg":"Connection ended","attr":{"remote":"127.0.0.1:45242","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"abf4128e-22f4-4932-87e3-84cd0d14d621"}},"connectionId":14,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5733914Z  {"t":{"$date":"2026-10-19T18:24:04.579+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn12","msg":"Connection ended","attr":{"remote":"127.0.0.1:45228","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"b3430363-830f-43cc-8a2b-85fb965c4bef"}},"connectionId":12,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5734961Z  {"t":{"$date":"2026-10-19T18:24:04.579+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn13","msg":"Connection ended","attr":{"remote":"127.0.0.1:45234","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"fa450306-776e-4634-937e-38ec96f4196d"}},"connectionId":13,"local":"127.0.0.1:27017","connectionCount":0}}
-2026-10-19T18:24:31.5736043Z  {"t":{"$date":"2026-10-19T18:24:07.530+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.18.0.1:57284","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"55109ca3-6f95-4b99-89af-73d43785bb64"}},"connectionId":16,"local":"172.18.0.2:27017","connectionCount":1}}
-2026-10-19T18:24:31.5737129Z  {"t":{"$date":"2026-10-19T18:24:07.534+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn16","msg":"client metadata","attr":{"remote":"172.18.0.1:57284","client":"conn16","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs","version":"6.21.0"},"platform":"Node.js v24.22.0, LE","os":{"name":"linux","architecture":"x64","version":"6.8.0-1070-azure","type":"Linux"}}}}
-2026-10-19T18:24:31.5738190Z  {"t":{"$date":"2026-10-19T18:24:07.534+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn16","msg":"Connection not authenticating","attr":{"client":"172.18.0.1:57284","doc":{"driver":{"name":"nodejs","version":"6.21.0"},"platform":"Node.js v24.22.0, LE","os":{"name":"linux","architecture":"x64","version":"6.8.0-1070-azure","type":"Linux"}}}}
-2026-10-19T18:24:31.5739221Z  {"t":{"$date":"2026-10-19T18:24:07.538+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"172.18.0.1:57288","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"5b54b262-7e1d-4d6d-9840-4a0a0103fc8f"}},"connectionId":17,"local":"172.18.0.2:27017","connectionCount":2}}
-2026-10-19T18:24:31.5740294Z  {"t":{"$date":"2026-10-19T18:24:07.538+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn17","msg":"client metadata","attr":{"remote":"172.18.0.1:57288","client":"conn17","negotiatedCompressors":[],"doc":{"driver":{"name":"nodejs","version":"6.21.0"},"platform":"Node.js v24.22.0, LE","os":{"name":"linux","architecture":"x64","version":"6.8.0-1070-azure","type":"Linux"}}}}
-2026-10-19T18:24:31.5741342Z  {"t":{"$date":"2026-10-19T18:24:07.538+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn17","msg":"Connection not authenticating","attr":{"client":"172.18.0.1:57288","doc":{"driver":{"name":"nodejs","version":"6.21.0"},"platform":"Node.js v24.22.0, LE","os":{"name":"linux","architecture":"x64","version":"6.8.0-1070-azure","type":"Linux"}}}}
-2026-10-19T18:24:31.5742159Z  {"t":{"$date":"2026-10-19T18:24:07.539+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn17","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
-2026-10-19T18:24:31.5743022Z  {"t":{"$date":"2026-10-19T18:24:07.539+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn17","msg":"createCollection","attr":{"namespace":"dealershipsDB.dealers","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"19392175-9620-41ff-85df-1b15abdb6831"}},"options":{},"recordIdsReplicated disposition":"computed","recordIdsReplicated":false}}
-2026-10-19T18:24:31.5744263Z  {"t":{"$date":"2026-10-19T18:24:07.539+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:collection-91ec22e1-5bad-4b43-a155-1df6ce915341","config":"type=file,memory_page_max=10M,split_pct=90,leaf_value_max=64MB,checksum=on,block_compressor=snappy,,,,exclusive=true,key_format=q,value_format=u,app_metadata=(formatVersion=1),log=(enabled=true)"}}
-2026-10-19T18:24:31.5745463Z  {"t":{"$date":"2026-10-19T18:24:07.557+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:index-74aac98b-75c4-482e-a901-10f7f951fcf6","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5746633Z  {"t":{"$date":"2026-10-19T18:24:07.558+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:index-8ffe18ab-2fcf-481e-8d97-5487c5606069","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=14),log=(enabled=true)"}}
-2026-10-19T18:24:31.5747905Z  {"t":{"$date":"2026-10-19T18:24:07.559+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn17","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"19392175-9620-41ff-85df-1b15abdb6831"}},"namespace":"dealershipsDB.dealers","index":"_id_","ident":"index-74aac98b-75c4-482e-a901-10f7f951fcf6","collectionIdent":"collection-91ec22e1-5bad-4b43-a155-1df6ce915341","commitTimestamp":null}}
-2026-10-19T18:24:31.5749294Z  {"t":{"$date":"2026-10-19T18:24:07.559+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn17","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"19392175-9620-41ff-85df-1b15abdb6831"}},"namespace":"dealershipsDB.dealers","index":"id_1","ident":"index-8ffe18ab-2fcf-481e-8d97-5487c5606069","collectionIdent":"collection-91ec22e1-5bad-4b43-a155-1df6ce915341","commitTimestamp":null}}
-2026-10-19T18:24:31.5750512Z  {"t":{"$date":"2026-10-19T18:24:07.560+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn17","msg":"createCollection","attr":{"namespace":"dealershipsDB.reviews","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"8010e6a4-222c-43d7-b5b7-0523b26751de"}},"options":{},"recordIdsReplicated disposition":"computed","recordIdsReplicated":false}}
-2026-10-19T18:24:31.5751674Z  {"t":{"$date":"2026-10-19T18:24:07.560+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:collection-7b12ab41-7b33-4171-913a-2602d5ca1933","config":"type=file,memory_page_max=10M,split_pct=90,leaf_value_max=64MB,checksum=on,block_compressor=snappy,,,,exclusive=true,key_format=q,value_format=u,app_metadata=(formatVersion=1),log=(enabled=true)"}}
-2026-10-19T18:24:31.5752884Z  {"t":{"$date":"2026-10-19T18:24:07.562+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:index-cd92e110-4dc7-40c4-a240-daa38beafa15","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5754095Z  {"t":{"$date":"2026-10-19T18:24:07.563+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:index-c3ccb196-d876-45ba-8e7e-710e7626dd65","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=14),log=(enabled=true)"}}
-2026-10-19T18:24:31.5755361Z  {"t":{"$date":"2026-10-19T18:24:07.564+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn17","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"8010e6a4-222c-43d7-b5b7-0523b26751de"}},"namespace":"dealershipsDB.reviews","index":"_id_","ident":"index-cd92e110-4dc7-40c4-a240-daa38beafa15","collectionIdent":"collection-7b12ab41-7b33-4171-913a-2602d5ca1933","commitTimestamp":null}}
-2026-10-19T18:24:31.5756743Z  {"t":{"$date":"2026-10-19T18:24:07.564+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn17","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"8010e6a4-222c-43d7-b5b7-0523b26751de"}},"namespace":"dealershipsDB.reviews","index":"id_1","ident":"index-c3ccb196-d876-45ba-8e7e-710e7626dd65","collectionIdent":"collection-7b12ab41-7b33-4171-913a-2602d5ca1933","commitTimestamp":null}}
-2026-10-19T18:24:31.5758301Z  {"t":{"$date":"2026-10-19T18:24:07.565+00:00"},"s":"I",  "c":"INDEX",    "id":20438,   "ctx":"conn17","msg":"Index build: registering","attr":{"buildUUID":{"uuid":{"$uuid":"341ad723-e937-4e43-8b68-08558383a6ea"}},"namespace":"dealershipsDB.reviews","collectionUUID":{"uuid":{"$uuid":"8010e6a4-222c-43d7-b5b7-0523b26751de"}},"indexes":1,"firstIndex":{"name":"dealership_1"},"command":{"createIndexes":"reviews","v":2,"indexes":[{"name":"dealership_1","key":{"dealership":1}}],"ignoreUnknownIndexOptions":false,"lsid":{"id":{"$uuid":"07bcc945-b923-4fee-983a-5a3b903bb37f"}}}}}
-2026-10-19T18:24:31.5759761Z  {"t":{"$date":"2026-10-19T18:24:07.565+00:00"},"s":"I",  "c":"WT",       "id":51780,   "ctx":"conn17","msg":"create table","attr":{"uri":"table:index-2c138fab-2365-4bb8-951c-831b38bb3434","config":"type=file,internal_page_max=16k,leaf_page_max=16k,checksum=on,prefix_compression=true,,,,,key_format=u,value_format=u,exclusive=true,app_metadata=(formatVersion=8),log=(enabled=true)"}}
-2026-10-19T18:24:31.5761080Z  {"t":{"$date":"2026-10-19T18:24:07.566+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn17","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"8010e6a4-222c-43d7-b5b7-0523b26751de"}},"namespace":"dealershipsDB.reviews","index":"dealership_1","ident":"index-2c138fab-2365-4bb8-951c-831b38bb3434","collectionIdent":"collection-7b12ab41-7b33-4171-913a-2602d5ca1933","commitTimestamp":null}}
-2026-10-19T18:24:31.5762207Z  {"t":{"$date":"2026-10-19T18:24:07.566+00:00"},"s":"I",  "c":"INDEX",    "id":20440,   "ctx":"conn17","msg":"Index build: waiting for index build to complete","attr":{"buildUUID":{"uuid":{"$uuid":"341ad723-e937-4e43-8b68-08558383a6ea"}},"deadline":{"$date":{"$numberLong":"9223372036854775807"}}}}
-2026-10-19T18:24:31.5762934Z  {"t":{"$date":"2026-10-19T18:24:07.566+00:00"},"s":"I",  "c":"INDEX",    "id":20447,   "ctx":"conn17","msg":"Index build: completed","attr":{"buildUUID":{"uuid":{"$uuid":"341ad723-e937-4e43-8b68-08558383a6ea"}}}}
-2026-10-19T18:24:31.5763815Z  {"t":{"$date":"2026-10-19T18:24:07.653+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn17","msg":"Connection ended","attr":{"remote":"172.18.0.1:57288","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"5b54b262-7e1d-4d6d-9840-4a0a0103fc8f"}},"connectionId":17,"local":"172.18.0.2:27017","connectionCount":1}}
-2026-10-19T18:24:31.5764880Z  {"t":{"$date":"2026-10-19T18:24:07.653+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn16","msg":"Connection ended","attr":{"remote":"172.18.0.1:57284","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"55109ca3-6f95-4b99-89af-73d43785bb64"}},"connectionId":16,"local":"172.18.0.2:27017","connectionCount":0}}
-2026-10-19T18:24:31.5765951Z  {"t":{"$date":"2026-10-19T18:24:14.742+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:36366","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"b87029ef-b7f0-4387-85da-9a9ab0346f30"}},"connectionId":18,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5767216Z  {"t":{"$date":"2026-10-19T18:24:14.744+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn18","msg":"client metadata","attr":{"remote":"127.0.0.1:36366","client":"conn18","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5768544Z  {"t":{"$date":"2026-10-19T18:24:14.744+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn18","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:36366","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5769730Z  {"t":{"$date":"2026-10-19T18:24:14.746+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:36378","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"cca13772-ed0f-4488-82ee-b1068be6f736"}},"connectionId":19,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5770955Z  {"t":{"$date":"2026-10-19T18:24:14.747+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn19","msg":"client metadata","attr":{"remote":"127.0.0.1:36378","client":"conn19","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5772319Z  {"t":{"$date":"2026-10-19T18:24:14.747+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn19","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:36378","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5773295Z  {"t":{"$date":"2026-10-19T18:24:14.754+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn19","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":7}}
-2026-10-19T18:24:31.5774218Z  {"t":{"$date":"2026-10-19T18:24:14.805+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:36392","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"66200e51-afeb-4570-b837-ae91be3c766f"}},"connectionId":20,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5775303Z  {"t":{"$date":"2026-10-19T18:24:14.805+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:36408","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"b9ccce43-18ac-4698-b518-aa50b459251b"}},"connectionId":21,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5776532Z  {"t":{"$date":"2026-10-19T18:24:14.807+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn20","msg":"client metadata","attr":{"remote":"127.0.0.1:36392","client":"conn20","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5777857Z  {"t":{"$date":"2026-10-19T18:24:14.807+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn20","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:36392","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5779224Z  {"t":{"$date":"2026-10-19T18:24:14.807+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn21","msg":"client metadata","attr":{"remote":"127.0.0.1:36408","client":"conn21","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5780555Z  {"t":{"$date":"2026-10-19T18:24:14.807+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn21","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:36408","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5781754Z  {"t":{"$date":"2026-10-19T18:24:14.808+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:36412","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"0e34fc26-9926-46e9-9128-3133ee916eaa"}},"connectionId":22,"local":"127.0.0.1:27017","connectionCount":5}}
-2026-10-19T18:24:31.5782669Z  {"t":{"$date":"2026-10-19T18:24:14.809+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn21","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
-2026-10-19T18:24:31.5783692Z  {"t":{"$date":"2026-10-19T18:24:14.810+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn22","msg":"client metadata","attr":{"remote":"127.0.0.1:36412","client":"conn22","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5785066Z  {"t":{"$date":"2026-10-19T18:24:14.810+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn22","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:36412","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5786039Z  {"t":{"$date":"2026-10-19T18:24:14.810+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn22","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":0}}
-2026-10-19T18:24:31.5786904Z  {"t":{"$date":"2026-10-19T18:24:14.814+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn18","msg":"Connection ended","attr":{"remote":"127.0.0.1:36366","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"b87029ef-b7f0-4387-85da-9a9ab0346f30"}},"connectionId":18,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5787970Z  {"t":{"$date":"2026-10-19T18:24:14.814+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn22","msg":"Connection ended","attr":{"remote":"127.0.0.1:36412","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"0e34fc26-9926-46e9-9128-3133ee916eaa"}},"connectionId":22,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5789038Z  {"t":{"$date":"2026-10-19T18:24:14.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn21","msg":"Connection ended","attr":{"remote":"127.0.0.1:36408","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"b9ccce43-18ac-4698-b518-aa50b459251b"}},"connectionId":21,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5790130Z  {"t":{"$date":"2026-10-19T18:24:14.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn20","msg":"Connection ended","attr":{"remote":"127.0.0.1:36392","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"66200e51-afeb-4570-b837-ae91be3c766f"}},"connectionId":20,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5791192Z  {"t":{"$date":"2026-10-19T18:24:14.815+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn19","msg":"Connection ended","attr":{"remote":"127.0.0.1:36378","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"cca13772-ed0f-4488-82ee-b1068be6f736"}},"connectionId":19,"local":"127.0.0.1:27017","connectionCount":0}}
-2026-10-19T18:24:31.5792269Z  {"t":{"$date":"2026-10-19T18:24:25.015+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46558","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"e61c506b-07e2-4cf2-95a0-6f120ec7eaa7"}},"connectionId":23,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5793505Z  {"t":{"$date":"2026-10-19T18:24:25.017+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn23","msg":"client metadata","attr":{"remote":"127.0.0.1:46558","client":"conn23","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5794927Z  {"t":{"$date":"2026-10-19T18:24:25.017+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn23","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46558","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5796116Z  {"t":{"$date":"2026-10-19T18:24:25.020+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46572","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"6e6a2d6a-52f0-45c4-9621-b9f5021a54b4"}},"connectionId":24,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5797349Z  {"t":{"$date":"2026-10-19T18:24:25.021+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn24","msg":"client metadata","attr":{"remote":"127.0.0.1:46572","client":"conn24","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5798678Z  {"t":{"$date":"2026-10-19T18:24:25.021+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn24","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46572","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5799657Z  {"t":{"$date":"2026-10-19T18:24:25.031+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn24","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":10}}
-2026-10-19T18:24:31.5800571Z  {"t":{"$date":"2026-10-19T18:24:25.107+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46578","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"0f91e80c-7fb0-4017-9b9f-7fc81af35084"}},"connectionId":25,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5801660Z  {"t":{"$date":"2026-10-19T18:24:25.107+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46586","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"e572ae3e-1b12-40a0-8ad5-2c2c10e240b5"}},"connectionId":26,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5802904Z  {"t":{"$date":"2026-10-19T18:24:25.110+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn25","msg":"client metadata","attr":{"remote":"127.0.0.1:46578","client":"conn25","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5804275Z  {"t":{"$date":"2026-10-19T18:24:25.110+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn25","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46578","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5805643Z  {"t":{"$date":"2026-10-19T18:24:25.110+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn26","msg":"client metadata","attr":{"remote":"127.0.0.1:46586","client":"conn26","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5806989Z  {"t":{"$date":"2026-10-19T18:24:25.110+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn26","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46586","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5808181Z  {"t":{"$date":"2026-10-19T18:24:25.112+00:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:46596","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"01e53489-36ad-49b1-8c86-01aa9d064796"}},"connectionId":27,"local":"127.0.0.1:27017","connectionCount":5}}
-2026-10-19T18:24:31.5809056Z  {"t":{"$date":"2026-10-19T18:24:25.112+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn26","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":2}}
-2026-10-19T18:24:31.5810071Z  {"t":{"$date":"2026-10-19T18:24:25.114+00:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn27","msg":"client metadata","attr":{"remote":"127.0.0.1:46596","client":"conn27","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5811408Z  {"t":{"$date":"2026-10-19T18:24:25.114+00:00"},"s":"I",  "c":"ACCESS",   "id":10483900,"ctx":"conn27","msg":"Connection not authenticating","attr":{"client":"127.0.0.1:46596","doc":{"application":{"name":"mongosh 2.13.0"},"driver":{"name":"nodejs|mongosh","version":"7.5.0|2.13.0"},"platform":"Node.js v24.21.0, LE","os":{"name":"linux","architecture":"x64","version":"3.10.0-327.22.2.el7.x86_64","type":"Linux"},"env":{"container":{"runtime":"docker"}}}}}
-2026-10-19T18:24:31.5812411Z  {"t":{"$date":"2026-10-19T18:24:25.114+00:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn27","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":0}}
-2026-10-19T18:24:31.5813276Z  {"t":{"$date":"2026-10-19T18:24:25.119+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn23","msg":"Connection ended","attr":{"remote":"127.0.0.1:46558","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"e61c506b-07e2-4cf2-95a0-6f120ec7eaa7"}},"connectionId":23,"local":"127.0.0.1:27017","connectionCount":4}}
-2026-10-19T18:24:31.5814394Z  {"t":{"$date":"2026-10-19T18:24:25.119+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn27","msg":"Connection ended","attr":{"remote":"127.0.0.1:46596","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"01e53489-36ad-49b1-8c86-01aa9d064796"}},"connectionId":27,"local":"127.0.0.1:27017","connectionCount":3}}
-2026-10-19T18:24:31.5815454Z  {"t":{"$date":"2026-10-19T18:24:25.119+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn26","msg":"Connection ended","attr":{"remote":"127.0.0.1:46586","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"e572ae3e-1b12-40a0-8ad5-2c2c10e240b5"}},"connectionId":26,"local":"127.0.0.1:27017","connectionCount":2}}
-2026-10-19T18:24:31.5816551Z  {"t":{"$date":"2026-10-19T18:24:25.119+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn25","msg":"Connection ended","attr":{"remote":"127.0.0.1:46578","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"0f91e80c-7fb0-4017-9b9f-7fc81af35084"}},"connectionId":25,"local":"127.0.0.1:27017","connectionCount":1}}
-2026-10-19T18:24:31.5817617Z  {"t":{"$date":"2026-10-19T18:24:25.119+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn24","msg":"Connection ended","attr":{"remote":"127.0.0.1:46572","isLoadBalanced":false,"isProxyUnixSock":false,"isPriority":false,"uuid":{"uuid":{"$uuid":"6e6a2d6a-52f0-45c4-9621-b9f5021a54b4"}},"connectionId":24,"local":"127.0.0.1:27017","connectionCount":0}}
-2026-10-19T18:24:31.5824394Z Stop and remove container: 4e4bf9b67a6c47478e7a381d413b89e8_mongo8_082e6f
-2026-10-19T18:24:31.5828321Z ##[command]/usr/bin/docker rm --force 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:24:36.6492893Z 2b223778f66b0e03ee091a6d715986b80fd834072056e24adb3035ef64d0c2d8
-2026-10-19T18:24:36.6514847Z Remove container network: github_network_60419137bfeb400bac6fdb1c11b424d5
-2026-10-19T18:24:36.6517449Z ##[command]/usr/bin/docker network rm github_network_60419137bfeb400bac6fdb1c11b424d5
-2026-10-19T18:24:36.7584909Z github_network_60419137bfeb400bac6fdb1c11b424d5
-2026-10-19T18:24:36.7632734Z Cleaning up orphan processes
-2026-10-19T18:24:36.7799654Z Terminate orphan process: pid (2654) (python)
-2026-10-19T18:24:36.7824860Z Terminate orphan process: pid (3078) (MainThread)
-2026-10-19T18:24:36.7842606Z Terminate orphan process: pid (3079) (python)
-2026-10-19T18:24:36.7859955Z Terminate orphan process: pid (3080) (python)
-2026-10-19T18:24:36.7879133Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Job: Lint JavaScript Files
+Job ID: 118238434187
+Conclusion: success
+Duration: 10 seconds
+  Set up job: success
+  Run actions/checkout@v4: success
+  Set up Node.js: success
+  Install dependencies: success
+  Lint with ESLint: success
+  Post Set up Node.js: success
+  Post Run actions/checkout@v4: success
+  Complete job: success
 
+Job: Lint Python Files
+Job ID: 118238434216
+Conclusion: success
+Duration: 8 seconds
+  Set up job: success
+  Run actions/checkout@v4: success
+  Set up Python: success
+  Install dependencies: success
+  Lint with flake8: success
+  Post Set up Python: success
+  Post Run actions/checkout@v4: success
+  Complete job: success
 
 
 ============================================================
