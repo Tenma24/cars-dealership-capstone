@@ -1,0 +1,7 @@
+**/node_modules
+**/__pycache__
+**/build
+**/.local-*
+**/*.sqlite3
+staticfiles
+.env*

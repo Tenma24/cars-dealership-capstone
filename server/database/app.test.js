@@ -1,0 +1,32 @@
+const {test,after,before}=require('node:test');
+const assert=require('node:assert/strict');
+const os=require('node:os');
+const fs=require('node:fs');
+const path=require('node:path');
+const temporary=fs.mkdtempSync(path.join(os.tmpdir(),'capstone-test-'));
+process.env.PORT='0';
+process.env.SERVICE_TOKEN='test-only-service-token';
+process.env.LOCAL_DATA_FILE=path.join(temporary,'reviews.json');
+if(!process.env.MONGODB_URL) process.env.DATA_MODE='file';
+const {start,closeDatabase}=require('./app');
+let server,base;
+before(async()=>{server=await start();await new Promise(resolve=>server.listening?resolve():server.on('listening',resolve));base='http://127.0.0.1:'+server.address().port;});
+after(async()=>{await new Promise(resolve=>server.close(resolve)); await closeDatabase(); fs.rmSync(temporary,{recursive:true});});
+test('dealer and review queries',async()=>{
+  const dealers=await(await fetch(base+'/fetchDealers')).json();assert.ok(dealers.length>0);
+  const kansas=await(await fetch(base+'/fetchDealers/Kansas')).json();assert.ok(kansas.length>0);assert.ok(kansas.every(d=>d.state==='Kansas'));
+  const dealer=await(await fetch(base+'/fetchDealer/1')).json();assert.equal(dealer.id,1);
+  assert.equal(await(await fetch(base+'/fetchDealer/99999')).json(),null);
+  const reviews=await(await fetch(base+'/fetchReviews/dealer/1')).json();assert.ok(reviews.every(r=>r.dealership===1));
+});
+test('review writes require service authentication and persist',async()=>{
+  const review={dealership:1,name:'Test Driver',review:'Fantastic services',purchase:false,sentiment:'positive'};
+  const options={method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(review)};
+  assert.equal((await fetch(base+'/insert_review',options)).status,403);
+  options.headers['X-Service-Token']=process.env.SERVICE_TOKEN;
+  const response=await fetch(base+'/insert_review',options);assert.equal(response.status,201);
+  const created=await response.json();assert.ok(created.id);
+  const reviews=await(await fetch(base+'/fetchReviews/dealer/1')).json();assert.ok(reviews.some(r=>r.id===created.id));
+  assert.equal((await fetch(base+'/insert_review',{...options,body:JSON.stringify({...review,review:''})})).status,400);
+  assert.equal((await fetch(base+'/insert_review',{...options,body:JSON.stringify({...review,dealership:99999})})).status,404);
+});

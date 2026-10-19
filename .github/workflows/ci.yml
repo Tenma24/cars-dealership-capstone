@@ -1,0 +1,50 @@
+name: Capstone CI
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo:8
+        ports: ['27017:27017']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '24'}
+      - name: Install Python dependencies
+        run: pip install -r server/requirements.txt -r server/djangoapp/microservices/requirements.txt
+      - name: Django checks and acceptance tests
+        working-directory: server
+        run: |
+          python manage.py check
+          coverage run --source=djangoapp --omit='*/tests.py,*/migrations/*,*/microservices/*,*/management/*,*/populate.py' manage.py test djangoapp
+          coverage report --fail-under=80
+      - name: Build React interface
+        working-directory: server/frontend
+        run: npm ci && npm run build
+      - name: Test Node service with MongoDB
+        working-directory: server/database
+        env:
+          MONGODB_URL: mongodb://127.0.0.1:27017
+          SERVICE_TOKEN: ci-test-service-token
+        run: npm ci && npm test
+      - name: Test sentiment service
+        run: python -m unittest discover -s server/djangoapp/microservices -p 'test_*.py'
+      - name: Browser workflow tests
+        run: |
+          python scripts/run_local.py > /tmp/capstone.log 2>&1 &
+          cd server/frontend
+          npx playwright install --with-deps chromium
+          npm run test:e2e
+      - name: Upload evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capstone-evidence
+          path: |
+            evidence/
+            server/frontend/test-results/

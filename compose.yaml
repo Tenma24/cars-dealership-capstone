@@ -1,0 +1,46 @@
+services:
+  mongo:
+    image: mongo:8
+    volumes: [mongo_data:/data/db]
+    healthcheck:
+      test: [CMD, mongosh, --quiet, --eval, "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  database:
+    build: ./server/database
+    environment:
+      MONGODB_URL: mongodb://mongo:27017
+      SERVICE_TOKEN: ${SERVICE_TOKEN:?Set SERVICE_TOKEN in .env}
+    depends_on:
+      mongo: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3030/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  sentiment:
+    build: ./server/djangoapp/microservices
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5050/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  web:
+    build: ./server
+    ports: ['8000:8000']
+    volumes: [sqlite_data:/data]
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY in .env}
+      DJANGO_DEBUG: '1'
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1}
+      CSRF_TRUSTED_ORIGINS: ${CSRF_TRUSTED_ORIGINS:-http://localhost:8000}
+      BACKEND_URL: http://database:3030
+      SENTIMENT_URL: http://sentiment:5050
+      SERVICE_TOKEN: ${SERVICE_TOKEN}
+    depends_on:
+      database: {condition: service_healthy}
+      sentiment: {condition: service_healthy}
+volumes:
+  mongo_data:
+  sqlite_data:

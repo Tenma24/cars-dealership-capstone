@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+node_modules/
+.local-secret
+.local-reviews.json*
+staticfiles/
+.env.*
+!.env.example
+*.sqlite3
+evidence/cookies*
+
+.local-config.json
+LOCAL_ACCESS.txt
+server/frontend/test-results/

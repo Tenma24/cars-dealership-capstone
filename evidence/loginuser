@@ -1,0 +1,2 @@
+$ curl -b cookies.txt -c cookies.txt -H "Content-Type: application/json" -H "X-CSRFToken: $CSRF_TOKEN" --data-binary @login.json http://127.0.0.1:8000/djangoapp/login
+{"userName": "capstone", "status": "Authenticated", "csrfToken": "YZPxd7VOzqgLleHwyzd2tbJDkekKswQdnvmIfhsAXZ5fnREkQMtXaUgxCeKw5s9N"}

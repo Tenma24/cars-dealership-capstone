@@ -1,0 +1,2 @@
+$ curl -b cookies.txt -X POST -H "X-CSRFToken: $CSRF_TOKEN" http://127.0.0.1:8000/djangoapp/logout
+{"status": "Logged out", "csrfToken": "zdrbdIW4YXfjIVhjIb8NNp22HixSnyyeYJYmfStQmw4NKye70ooIu8zWZiXE0uRO"}

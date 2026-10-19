@@ -1,35 +1,25 @@
-from flask import Flask
-from nltk.sentiment import SentimentIntensityAnalyzer
-import json
-app = Flask("Sentiment Analyzer")
-
-sia = SentimentIntensityAnalyzer()
-
-
-@app.get('/')
-def home():
-    return "Welcome to the Sentiment Analyzer. \
-    Use /analyze/text to get the sentiment"
-
-
-@app.get('/analyze/<input_txt>')
-def analyze_sentiment(input_txt):
-
-    scores = sia.polarity_scores(input_txt)
-    print(scores)
-    pos = float(scores['pos'])
-    neg = float(scores['neg'])
-    neu = float(scores['neu'])
-    res = "positive"
-    print("pos neg nue ", pos, neg, neu)
-    if (neg > pos and neg > neu):
-        res = "negative"
-    elif (neu > neg and neu > pos):
-        res = "neutral"
-    res = json.dumps({"sentiment": res})
-    print(res)
-    return res
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
+from flask import Flask, request, jsonify
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+app=Flask(__name__)
+app.config['MAX_CONTENT_LENGTH']=16384
+analyzer=SentimentIntensityAnalyzer()
+def analyze(text):
+    if not isinstance(text,str) or not text.strip() or len(text)>2000:
+        return jsonify(error='Text must contain 1–2000 characters'),400
+    scores=analyzer.polarity_scores(text)
+    sentiment='positive' if scores['compound']>=0.05 else 'negative' if scores['compound']<=-0.05 else 'neutral'
+    return jsonify(sentiment=sentiment,score=scores['compound'])
+@app.get('/analyze/<path:text>')
+def analyze_get(text):
+    return analyze(text)
+@app.post('/analyze')
+def analyze_post():
+    data=request.get_json(silent=True)
+    return analyze(data.get('text') if isinstance(data,dict) else None)
+@app.get('/health')
+def health():
+    return jsonify(status='ok')
+if __name__=='__main__':
+    from waitress import serve
+    import os
+    serve(app,host='127.0.0.1',port=int(os.getenv('PORT','5050')))
