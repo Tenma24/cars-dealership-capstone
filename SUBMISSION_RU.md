@@ -27,7 +27,7 @@
 | 20 | `evidence/dealer_id_reviews.png` — переснять с адресной строкой и видимым отзывом |
 | 21 | `evidence/dealership_review_submission.png` |
 | 22 | `evidence/added_review.png` |
-| 23 | `evidence/CICD` после успешного запуска GitHub Actions |
+| 23 | Содержимое `evidence/CICD`; [успешный запуск GitHub Actions](https://github.com/Tenma24/cars-dealership-capstone/actions/runs/39302067786) |
 | 24–28 | Ожидают облачного развёртывания; локальный URL не заменяет публичный |
 
 ## Как переснять пункты 18–20
@@ -35,6 +35,8 @@
 Запустите приложение по README и откройте Chrome. Войдите под `capstone`; локальный пароль находится в `LOCAL_ACCESS.txt`. Для 18 откройте `/dealers`: на снимке должны быть имя пользователя, Review Dealer и адресная строка. При необходимости уменьшите масштаб браузера до 80%. Для 19 выберите Kansas: URL станет `/dealers?state=Kansas`. Для 20 откройте `/dealer/8`, где уже добавлен отзыв в ходе проверки. Сохраняйте снимок всего окна браузера, а не только страницы. Замените соответствующие файлы в `evidence/`.
 
 ## cURL
+
+В `SUBMISSION_ANSWERS.txt` собраны ссылки и фактические выводы команд по порядку задания, включая журнал успешного CI.
 
 Файлы получены настоящими вызовами curl. В командах входа CSRF_TOKEN и login.json — обозначения временных файлов/переменных: `login.json` содержит userName и password, cookie jar получается запросом `/djangoapp/session`. Сам пароль и cookie jar не опубликованы. В ответе входа есть новый csrfToken для выхода. Повторный сбор: `python scripts/collect_curl.py` при запущенном приложении.
 
