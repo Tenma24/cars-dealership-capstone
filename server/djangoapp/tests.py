@@ -43,6 +43,14 @@ class AccountTests(TestCase):
     def test_readonly_login(self):
         self.assertEqual(self.client.get('/djangoapp/login').status_code, 405)
 
+    def test_course_logout_get_requires_same_origin_header(self):
+        self.client.force_login(self.user)
+        self.assertEqual(self.client.get('/djangoapp/logout').status_code,405)
+        response=self.client.get('/djangoapp/logout',HTTP_X_REQUESTED_WITH='XMLHttpRequest')
+        self.assertEqual(response.status_code,200)
+        self.assertEqual(response.json()['userName'],'')
+        self.assertIsNone(self.client.get('/djangoapp/session').json()['userName'])
+
     def test_validation_errors(self):
         data = {'userName':'x','firstName':'Alex','lastName':'Smith','email':'invalid','password':'password'}
         self.assertEqual(self.client.post('/djangoapp/register',data,content_type='application/json').status_code,400)
