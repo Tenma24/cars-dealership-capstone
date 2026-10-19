@@ -11,7 +11,7 @@ from django.core.validators import validate_email
 from django.db import IntegrityError
 from django.http import JsonResponse
 from django.middleware.csrf import get_token
-from django.views.decorators.http import require_GET, require_POST
+from django.views.decorators.http import require_GET, require_POST, require_http_methods
 from .models import CarMake, CarModel
 from .restapis import get_request, post_review, analyze_review_sentiments
 
@@ -52,10 +52,15 @@ def login_user(request):
     login(request,user)
     return JsonResponse({'userName':user.username,'status':'Authenticated','csrfToken':get_token(request)})
 
-@require_POST
+@require_http_methods(['GET','POST'])
 def logout_request(request):
+    # Course curl compatibility. The custom header prevents cross-origin
+    # navigations/images from logging users out; do not enable credentialed CORS.
+    # The browser UI continues to use a CSRF-protected POST.
+    if request.method == 'GET' and request.headers.get('X-Requested-With') != 'XMLHttpRequest':
+        return JsonResponse({'error':'Use POST, or the course AJAX GET request.'},status=405)
     logout(request)
-    return JsonResponse({'status':'Logged out','csrfToken':get_token(request)})
+    return JsonResponse({'userName':'','status':'Logged out','csrfToken':get_token(request)})
 
 @require_POST
 @guarded
