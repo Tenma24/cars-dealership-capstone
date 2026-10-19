@@ -11,7 +11,7 @@ if(!process.env.MONGODB_URL) process.env.DATA_MODE='file';
 const {start,closeDatabase}=require('./app');
 let server,base;
 before(async()=>{server=await start();await new Promise(resolve=>server.listening?resolve():server.on('listening',resolve));base='http://127.0.0.1:'+server.address().port;});
-after(async()=>{await new Promise(resolve=>server.close(resolve)); await closeDatabase(); fs.rmSync(temporary,{recursive:true});});
+after(async()=>{if(server) await new Promise(resolve=>server.close(resolve)); await closeDatabase(); fs.rmSync(temporary,{recursive:true});});
 test('dealer and review queries',async()=>{
   const dealers=await(await fetch(base+'/fetchDealers')).json();assert.ok(dealers.length>0);
   const kansas=await(await fetch(base+'/fetchDealers/Kansas')).json();assert.ok(kansas.length>0);assert.ok(kansas.every(d=>d.state==='Kansas'));
