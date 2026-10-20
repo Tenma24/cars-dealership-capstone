@@ -106,7 +106,9 @@ class DealerTests(TestCase):
     def test_models_and_catalog(self):
         self.assertEqual(str(self.make),'Audi')
         self.assertEqual(str(self.model),'Audi A4 (2023)')
-        self.assertEqual(self.client.get('/djangoapp/get_cars').json()['car_makes'][0]['models'][0]['year'],2023)
+        self.assertEqual(self.client.get('/djangoapp/get_cars').json(),
+                         {'CarModels':[{'CarModel':'A4','CarMake':'Audi'}]})
+        self.assertEqual(self.client.get('/djangoapp/get_cars?format=grouped').json()['car_makes'][0]['models'][0]['year'],2023)
 
     @patch('djangoapp.restapis.requests.get')
     @patch('djangoapp.restapis.requests.post')
