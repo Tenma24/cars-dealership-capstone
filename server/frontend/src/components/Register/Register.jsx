@@ -21,7 +21,7 @@ export default function Register() {
   return (
     <section className="auth card">
       <p className="eyebrow">JOIN THE COMMUNITY</p>
-      <h1>A better journey starts here.</h1>
+      <h1>Sign Up</h1>
       <p className="muted">
         Create an account to share your dealership experience.
       </p>
@@ -30,6 +30,9 @@ export default function Register() {
           Username
           <input
             name="userName"
+            id="username"
+            type="text"
+            placeholder="Username"
             autoComplete="username"
             required
             maxLength="150"
@@ -40,6 +43,9 @@ export default function Register() {
             First Name
             <input
               name="firstName"
+              id="first-name"
+              type="text"
+              placeholder="First Name"
               autoComplete="given-name"
               required
               maxLength="150"
@@ -49,6 +55,9 @@ export default function Register() {
             Last Name
             <input
               name="lastName"
+              id="last-name"
+              type="text"
+              placeholder="Last Name"
               autoComplete="family-name"
               required
               maxLength="150"
@@ -59,6 +68,8 @@ export default function Register() {
           Email
           <input
             name="email"
+            id="email"
+            placeholder="Email"
             type="email"
             autoComplete="email"
             required
@@ -69,6 +80,8 @@ export default function Register() {
           Password
           <input
             name="password"
+            id="password"
+            placeholder="Password"
             type="password"
             autoComplete="new-password"
             required
@@ -82,7 +95,7 @@ export default function Register() {
             {error}
           </p>
         )}
-        <button disabled={busy}>
+        <button type="submit" disabled={busy}>
           {busy ? "Creating account…" : "Register"}
         </button>
       </form>

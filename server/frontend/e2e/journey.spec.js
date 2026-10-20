@@ -12,7 +12,9 @@ test("visitor registers, filters dealers, submits review, and logs out", async (
   await expect(
     page.getByRole("link", { name: "Review Dealer", exact: true }),
   ).toHaveCount(0);
+  await page.setViewportSize({ width: 1440, height: 1800 });
   await page.screenshot({ path: path.join(evidence, "get_dealers.png") });
+  await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/register");
   const username = "driver_" + Date.now();
   for (const [label, value] of [
@@ -89,8 +91,8 @@ test("mobile directory and information pages are readable", async ({
   ).toBeTruthy();
   await page.screenshot({ path: path.join(evidence, "mobile.png") });
   for (const [url, title] of [
-    ["/about/", "A better way to find your next dealership."],
-    ["/contact/", "Here for the road ahead."],
+    ["/about/", "About Us"],
+    ["/contact/", "Contact Us"],
   ]) {
     await page.goto(url);
     await expect(page.getByRole("heading", { name: title })).toBeVisible();

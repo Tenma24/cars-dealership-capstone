@@ -262,7 +262,7 @@ function PostReview({ id, user }) {
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
   useEffect(() => {
-    Promise.all([api("dealer/" + id), api("get_cars")])
+    Promise.all([api("dealer/" + id), api("get_cars?format=grouped")])
       .then(([d, c]) => {
         setDealer(d.dealer);
         setMakes(c.car_makes);

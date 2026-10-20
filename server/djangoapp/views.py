@@ -99,6 +99,11 @@ def get_dealer_reviews(request,dealer_id):
 
 @require_GET
 def get_cars(request):
+    if request.GET.get('format') != 'grouped':
+        cars = CarModel.objects.select_related('car_make').order_by('id')
+        return JsonResponse({'CarModels': [
+            {'CarModel': car.name, 'CarMake': car.car_make.name} for car in cars
+        ]})
     return JsonResponse({'car_makes':[{'id':make.id,'name':make.name,'models':list(make.models.values('id','name','type','year'))} for make in CarMake.objects.prefetch_related('models').order_by('name')]})
 
 @require_POST
